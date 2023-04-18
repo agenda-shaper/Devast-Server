@@ -1103,7 +1103,7 @@ function SwitchCaseAction(data, player) {
   }
 }
 
-setInterval(() => Game.Run60fps(), 16);
+setInterval(() => Game.Run60fps(), 16.6);
 
 const WebSocket = require("ws");
 
@@ -1125,10 +1125,10 @@ wss.on("connection", (ws) => {
       let id = data[3];
       let nick = data[4];
 
-      let player = Game.SpawnPlayer(ws, id, tokenid, token, nick);
+      let playerTemp = Game.SpawnPlayer(ws, id, tokenid, token, nick);
 
       ws.data = {
-        id: player.userid,
+        id: playerTemp.userid,
       };
     }
     let player = Game.players[ws.data.id];
