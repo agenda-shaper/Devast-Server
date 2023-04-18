@@ -1,0 +1,8 @@
+{
+    "0": 42,		// case 42
+    "1": 2,			// player level
+    "2": 0,
+    "3": 0,			// SERVG.PLAYER.expf = (((message[2] << 24) + (message[3] << 16)) + (message[4] << 8)) + message[5];
+    "4": 2,			// from 2 to 5 are for EXP
+    "5": 5			
+}				// from 6th item it loops and unlocks skills data, here it doesnt unlock nothing

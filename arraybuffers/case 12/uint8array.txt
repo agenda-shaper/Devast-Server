@@ -1,0 +1,8 @@
+{
+    "0": 12,		// case 12 vital data bars
+    "1": 255,		// health
+    "2": 255,		// hunger
+    "3": 255,		// cold
+    "4": 255,		// stamina
+    "5": 255		// radiation
+}

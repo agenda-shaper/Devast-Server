@@ -1,0 +1,14 @@
+27 = wood wall
+28 = stone wall
+29 = steel wall
+30 = wood low door
+31 = stone low door
+32 = steel low door
+33 = campfire
+
+
+50 = wood door
+51 = stone door
+52 = steel door
+
+
