@@ -1,0 +1,417 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+canvas#can {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+div#nickname {
+    position: absolute;
+    width: 182px;
+    height: 25px;
+    display: none;
+    padding: 0px;
+    font-size: 0px;
+}
+
+input#InvisField {
+    visibility: hidden;
+    width: 182px;
+    height: 25px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Viga', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    user-select: none;
+    outline: none;
+    padding: 0px;
+}
+
+input#passwordInput {
+    width: 182px;
+    height: 25px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Viga', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    user-select: none;
+    outline: none;
+    padding: 0px;
+}
+
+input#passwordInput::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #7da78f;
+    opacity: 1;
+    /* Firefox */
+}
+
+input#passwordInput:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #7da78f;
+}
+
+input#passwordInput::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #7da78f;
+}
+
+input#nicknameInput {
+    width: 182px;
+    height: 25px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Viga', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    user-select: none;
+    outline: none;
+    padding: 0px;
+}
+
+input#nicknameInput::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #7da78f;
+    opacity: 1;
+    /* Firefox */
+}
+
+input#nicknameInput:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #7da78f;
+}
+
+input#nicknameInput::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #7da78f;
+}
+
+div#terms {
+    position: absolute;
+    width: 85px;
+    height: 17px;
+    display: none;
+    color: white;
+    font-family: 'Viga', sans-serif;
+    font-size: 10px;
+}
+
+div#terms a {
+    color: white;
+}
+
+div#serverList {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    display: none;
+    padding: 0px;
+    font-size: 0px;
+    background: url(../img/home-listarrow.png) no-repeat 96% center;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Viga', sans-serif;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 50px;
+    border: black 3px solid;
+    background-color: #bcb33e;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
+
+select#servers {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 25px;
+    padding: 0px;
+    width: 250px;
+    outline: none;
+    font-family: 'Viga', sans-serif;
+}
+
+div#changelog {
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 180px;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    border-radius: 5px;
+    text-align: center;
+    color: #bcb33e;
+    font-family: 'Viga', sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+div#scrollChangelog {
+    width: 100%;
+    height: 28%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+div#changelogTitle {
+    font-weight: lighter;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    height: 20px;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: -15px;
+}
+
+img#changelogImg {
+    margin: 5px;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+}
+
+img#privateImg {
+    text-align: center;
+    width: 195px;
+}
+
+div#changelogText {
+    font-family: 'Viga', sans-serif;
+    font-weight: lighter;
+    font-size: 9px;
+    padding: 10px;
+    padding-bottom: 45px;
+    color: white;
+}
+
+/*div#endChangelog {
+
+	position:absolute;
+	margin-top:173px;
+	width: 205px;
+	height:20px;
+	border-radius:0px 0px 5px 5px;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+
+/*}*/
+
+div#howtoplay {
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 347px;
+    text-align: center;
+    color: white;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 10px;
+    padding-top: 0px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+div#howtoplayText {
+    text-align: center;
+    color: white;
+    font-family: 'Viga', sans-serif;
+    font-size: 10px;
+    margin: 5px;
+}
+
+div#howtoplay p {
+    margin: 0;
+}
+
+div#howtoplayTitle {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    height: 20px;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: -15px;
+}
+
+div#howtoplayCommands {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    height: 20px;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    text-align: center;
+    color: white;
+    margin-top: 13px;
+}
+
+div#moveCommand {
+    color: #bcb33e;
+    padding-left: 30px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+div#hitCommands {
+    color: #bcb33e;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+div#runCommands {
+    color: #bcb33e;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+div#mainCommands {
+    color: #bcb33e;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+div#secondCommands {
+    color: #bcb33e;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+div#interactCommands {
+    padding-left: 7px;
+    padding-right: 0px;
+    display: inline-block;
+}
+
+div#craftCommands {
+    padding-left: 5px;
+    padding-right: 18px;
+    display: inline-block;
+}
+
+div#mapCommands {
+    padding-left: 6px;
+    padding-right: 12px;
+    display: inline-block;
+}
+
+div#featuredVideo {
+    position: absolute;
+    width: 182px;
+    height: 25px;
+    display: none;
+    color: white;
+    font-family: "Viga", sans-serif;
+    font-size: 13px;
+}
+
+div#trevda {
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    display: none;
+    /*
+	left: 0!important; <-- I was for Adinplay banner
+	width: 300px;
+	height: 250px;
+	border: 3px white solid;
+	*/
+}
+
+.trevda {
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    display: none;
+    /*
+	left: 0!important; <-- I was for Adinplay banner
+	width: 300px;
+	height: 250px;
+	border: 3px white solid;
+	*/
+}
+
+/* Adinplay
+div#preroll {
+
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	display: none;
+
+}
+*/
+
+/* Yolla */
+
+div#preroll {
+    width: 100%;
+    height: 100%;
+}
+
+div#chat {
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    display: none;
+}
+
+input#chatInput {
+    width: 300px;
+    height: 25px;
+    border: solid 1px #000000;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Viga', sans-serif;
+    background-color: #000000;
+    user-select: none;
+    outline: none;
+}
+
+body#bod {
+    background-color: #38513D;
+    -ms-overflow-style: none;
+}
