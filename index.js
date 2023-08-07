@@ -1113,31 +1113,26 @@ wss.on("connection", (ws) => {
   console.log("Client connected");
 
   ws.on("message", (event) => {
-    // @ts-ignore
-    const buffer = Buffer.from(event);
-    const string = buffer.toString("utf8");
-    const data = JSON.parse(string);
-
-    if (data[0] == 30) {
-      // new player connection
-      let token = data[1];
-      let tokenid = data[2];
-      let id = data[3];
-      let nick = data[4];
-
-      let playerTemp = Game.SpawnPlayer(ws, id, tokenid, token, nick);
-
-      ws.data = {
-        id: playerTemp.userid,
-      };
+    if (typeof event === "string") {
+      // This is a text message (string)
+      console.log("Received string:", event);
+    } else {
+      // This is binary data
+      const buffer = Buffer.from(event);
+      console.log("Received binary:", buffer);
     }
-    let player = Game.players[ws.data.id];
-    SwitchCaseAction(data, player);
-
-    // keep connection alive
-    const Case8 = new Uint8Array([8]);
-    ws.send(Case8);
+    ws.send("Case8");
   });
+
+  // ws.on("message", (event) => {
+  //   // @ts-ignore
+  //   const buffer = Buffer.from(event);
+  //   const string = buffer.toString("utf8");
+  //   const data = JSON.parse(string);
+  //   console.log(data);
+
+  //   ws.send("Case8");
+  // });
 
   ws.on("close", () => {
     console.log("Client disconnected");
