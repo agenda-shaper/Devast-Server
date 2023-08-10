@@ -43,34 +43,10 @@ function SwitchCaseAction(data, player) {
         player.ws.send(Case38startBuilding);
       }
       break;
-    case 9: // drop item (inventory)
-      console.log("drop item inventory id - " + data[1]);
-      break;
-    case 11: // divide item stack (inventory)
-      console.log("divide item stack inventory id - " + data[1]);
-      break;
-    case 14:
-      console.log("place block");
-
-      let tileX = Math.max(1, Math.min(150, data[3] + 1)); // bounds and add 1 to match tiles pos
-      let tileY = Math.max(1, Math.min(150, data[2] + 1));
-
-      let tile = Game.BlockTiles[tileX][tileY]; // get tile from array
-      tile.rotation = data[1]; // set rotation
-      tile.tilePos.x = tileX;
-      tile.tilePos.y = tileY; // save tile pos
-
-      Game.createBlock(tile, player);
-      break;
-    case 30: // new player connection
-      CreatePlayerForWebsocket(player);
-      break;
     default: // unknown case
       console.log(data);
   }
 }
-
-setInterval(() => Game.Run60fps(), 16.6);
 
 const WebSocket = require("ws");
 
