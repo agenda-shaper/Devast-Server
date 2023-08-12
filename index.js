@@ -154,26 +154,86 @@ class Player {
     newX = Math.max(borders.xMin + 25, Math.min(borders.xMax - 25, newX));
     newY = Math.max(borders.yMin + 25, Math.min(borders.yMax - 25, newY));
 
-    // Check for collision at the new position
-    let Point = { x: newX, y: this.y }; // center
-    let Tile =
-      tiles[Math.max(1, Math.min(150, Math.ceil(Point.x / 100)))][
-        Math.max(1, Math.min(150, Math.ceil(Point.y / 100)))
+    // 50x50 player collision box
+    // Get 4 locations of the hitbox diagonal endings + the center point
+    let Point0 = { x: newX, y: this.y }; // center
+    let Point1 = { x: newX - 25, y: this.y - 25 };
+    let Point2 = { x: newX + 25, y: this.y - 25 };
+    let Point3 = { x: newX - 25, y: this.y + 25 };
+    let Point4 = { x: newX + 25, y: this.y + 25 };
+
+    // Get Tiles of each point
+    let Tile0 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point0.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point0.y / 100)))
+      ];
+    let Tile1 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point1.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point1.y / 100)))
+      ];
+    let Tile2 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point2.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point2.y / 100)))
+      ];
+    let Tile3 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point3.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point3.y / 100)))
+      ];
+    let Tile4 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point4.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point4.y / 100)))
       ];
 
-    if (Game.checkCollision(Point, Tile)) {
+    if (
+      Game.checkCollision(Point0, Tile0) ||
+      Game.checkCollision(Point1, Tile1) ||
+      Game.checkCollision(Point2, Tile2) ||
+      Game.checkCollision(Point3, Tile3) ||
+      Game.checkCollision(Point4, Tile4)
+    ) {
       console.log("Collision detected");
       newX = this.x;
     }
 
-    // Check for collision at the new position
-    Point = { x: newX, y: newY }; // center
-    Tile =
-      tiles[Math.max(1, Math.min(150, Math.ceil(Point.x / 100)))][
-        Math.max(1, Math.min(150, Math.ceil(Point.y / 100)))
+    // now check for Y
+
+    // 50x50 player collision box
+    // Get 4 locations of the hitbox diagonal endings + the center point
+    Point0 = { x: newX, y: newY }; // center
+    Point1 = { x: newX - 25, y: newY - 25 };
+    Point2 = { x: newX + 25, y: newY - 25 };
+    Point3 = { x: newX - 25, y: newY + 25 };
+    Point4 = { x: newX + 25, y: newY + 25 };
+
+    // Get Tiles of each point
+    Tile0 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point0.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point0.y / 100)))
+      ];
+    Tile1 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point1.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point1.y / 100)))
+      ];
+    Tile2 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point2.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point2.y / 100)))
+      ];
+    Tile3 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point3.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point3.y / 100)))
+      ];
+    Tile4 =
+      tiles[Math.max(1, Math.min(150, Math.ceil(Point4.x / 100)))][
+        Math.max(1, Math.min(150, Math.ceil(Point4.y / 100)))
       ];
 
-    if (Game.checkCollision(Point, Tile)) {
+    if (
+      Game.checkCollision(Point0, Tile0) ||
+      Game.checkCollision(Point1, Tile1) ||
+      Game.checkCollision(Point2, Tile2) ||
+      Game.checkCollision(Point3, Tile3) ||
+      Game.checkCollision(Point4, Tile4)
+    ) {
       console.log("Collision detected");
       newY = this.y;
     }
