@@ -116,11 +116,12 @@ class Player {
     let speed = 1;
     if (this.shiftPressed) {
       speed = shiftSpeed;
+    }
+  }
   checkCollision(Point, block) {
-    ...
     let BlockX = block.tilePos.x * 100 + block.width / 2;
     let BlockY = block.tilePos.y * 100 + block.height / 2;
-    ...
+    // Implement the logic for the collision check using the 'BlockX' and 'BlockY' variables.
   }
         newX = this.x - 4 * speed;
         break;
