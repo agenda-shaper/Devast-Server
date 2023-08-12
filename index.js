@@ -116,12 +116,12 @@ class Player {
     let speed = 1;
     if (this.shiftPressed) {
       speed = shiftSpeed;
-    }
-
-    let newX = this.x; // new x position of the player after movement
-    let newY = this.y; // new y position of the player after movement
-    switch (this.movingTo) {
-      case 1: // left
+  checkCollision(Point, block) {
+    ...
+    let BlockX = block.tilePos.x * 100 + block.width / 2;
+    let BlockY = block.tilePos.y * 100 + block.height / 2;
+    ...
+  }
         newX = this.x - 4 * speed;
         break;
       case 2: // right
