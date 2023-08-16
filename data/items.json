@@ -1,0 +1,3819 @@
+[
+  {
+    "id": 1,
+    "img": {
+      "source": [
+        "img/inv-wood-out.png",
+        "img/inv-wood-in.png",
+        "img/inv-wood-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wood",
+      "description": "Found in trees, or on the ground.",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 2,
+    "img": {
+      "source": [
+        "img/inv-stone-out.png",
+        "img/inv-stone-in.png",
+        "img/inv-stone-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Stone",
+      "description": "Find it on the ground or on the rock.",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 3,
+    "img": {
+      "source": [
+        "img/inv-steel-out.png",
+        "img/inv-steel-in.png",
+        "img/inv-steel-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Iron",
+      "description": "Melt it on a Firepit or a Smelter",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 4,
+    "img": {
+      "source": [
+        "img/inv-animal-fat-out.png",
+        "img/inv-animal-fat-in.png",
+        "img/inv-animal-fat-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Animal Fat",
+      "description": "Useful to craft bullet and clothes",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 5,
+    "img": {
+      "source": [
+        "img/inv-animal-tendon-out.png",
+        "img/inv-animal-tendon-in.png",
+        "img/inv-animal-tendon-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Animal Tendon",
+      "description": "Useful to make string",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 6,
+    "img": {
+      "source": [
+        "img/inv-string-out.png",
+        "img/inv-string-in.png",
+        "img/inv-string-click.png"
+      ]
+    },
+    "detail": {
+      "name": "String",
+      "description": "Useful to craft many items.",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 7,
+    "img": {
+      "source": [
+        "img/inv-leather-boar-out.png",
+        "img/inv-leather-boar-in.png",
+        "img/inv-leather-boar-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Leather",
+      "description": "Useful to make clothes",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 8,
+    "img": {
+      "source": [
+        "img/inv-shaped-metal-out.png",
+        "img/inv-shaped-metal-in.png",
+        "img/inv-shaped-metal-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Shaped Metal",
+      "description": "To craft improved items.",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 9,
+    "img": {
+      "source": [
+        "img/inv-raw-steak-out.png",
+        "img/inv-raw-steak-in.png",
+        "img/inv-raw-steak-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Raw Steak",
+      "description": "#Vegan",
+      "level": -1
+    },
+    "stack": 10
+  },
+  {
+    "id": 10,
+    "img": {
+      "source": [
+        "img/inv-cooked-steak-out.png",
+        "img/inv-cooked-steak-in.png",
+        "img/inv-cooked-steak-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Cooked Steak",
+      "description": "Rare or medium?",
+      "level": -1
+    },
+    "stack": 10
+  },
+  {
+    "id": 11,
+    "img": {
+      "source": [
+        "img/inv-rotten-steak-out.png",
+        "img/inv-rotten-steak-in.png",
+        "img/inv-rotten-steak-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rotten Steak",
+      "description": "Don't eat that.",
+      "level": -1
+    },
+    "stack": 10
+  },
+  {
+    "id": 12,
+    "img": {
+      "source": [
+        "img/inv-orange-out.png",
+        "img/inv-orange-in.png",
+        "img/inv-orange-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Orange",
+      "description": "A little hungry?",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 13,
+    "img": {
+      "source": [
+        "img/inv-rotten-orange-out.png",
+        "img/inv-rotten-orange-in.png",
+        "img/inv-rotten-orange-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rotten Orange",
+      "description": "Go on, have a bite!",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 14,
+    "img": {
+      "source": [
+        "img/inv-orange-seed-out.png",
+        "img/inv-orange-seed-in.png",
+        "img/inv-orange-seed-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Orange Seed",
+      "description": "Fill up on Vitame C?",
+      "level": -1
+    },
+    "stack": 40,
+    "width": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "height": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-plant2-orange.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-plant2-orange.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 15,
+    "img": {
+      "source": [
+        "img/inv-hachet-out.png",
+        "img/inv-hachet-in.png",
+        "img/inv-hachet-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Hatchet",
+      "description": "Harvest Wood and Stone.",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 16,
+    "img": {
+      "source": [
+        "img/inv-stone-pickaxe-out.png",
+        "img/inv-stone-pickaxe-in.png",
+        "img/inv-stone-pickaxe-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Stone Pickaxe",
+      "description": "Mine Stone and Iron.",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 17,
+    "img": {
+      "source": [
+        "img/inv-steel-pickaxe-out.png",
+        "img/inv-steel-pickaxe-in.png",
+        "img/inv-steel-pickaxe-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Metal Pickaxe",
+      "description": "Mine also Sulfur",
+      "level": 6
+    },
+    "stack": 1
+  },
+  {
+    "id": 18,
+    "img": {
+      "source": [
+        "img/inv-stone-axe-out.png",
+        "img/inv-stone-axe-in.png",
+        "img/inv-stone-axe-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Metal Axe",
+      "description": "Harvest a lot of Wood",
+      "level": 5
+    },
+    "stack": 1
+  },
+  {
+    "id": 19,
+    "img": {
+      "source": [
+        "img/inv-workbench-out.png",
+        "img/inv-workbench-in.png",
+        "img/inv-workbench-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Workbench",
+      "description": "Allow you to make new items.",
+      "level": -1
+    },
+    "stack": 255,
+    "putableimg": {
+      "source": "img/day-clear-blue-workbench.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-workbench.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 20,
+    "img": {
+      "source": [
+        "img/inv-wood-spear-out.png",
+        "img/inv-wood-spear-in.png",
+        "img/inv-wood-spear-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wood Spear",
+      "description": "Don't forget to pick it up.",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 21,
+    "img": {
+      "source": [
+        "img/inv-wood-bow-out.png",
+        "img/inv-wood-bow-in.png",
+        "img/inv-wood-bow-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wood Bow",
+      "description": "Where are the cowboys?",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 22,
+    "img": {
+      "source": [
+        "img/inv-9mm-out.png",
+        "img/inv-9mm-in.png",
+        "img/inv-9mm-click.png"
+      ]
+    },
+    "detail": {
+      "name": "9MM",
+      "description": "I hope you know how to aim.",
+      "level": 7
+    },
+    "stack": 1
+  },
+  {
+    "id": 23,
+    "img": {
+      "source": [
+        "img/inv-desert-eagle-out.png",
+        "img/inv-desert-eagle-in.png",
+        "img/inv-desert-eagle-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Desert Eagle",
+      "description": "Pretty useful for self-defense.",
+      "level": 9
+    },
+    "stack": 1
+  },
+  {
+    "id": 24,
+    "img": {
+      "source": [
+        "img/inv-shotgun-out.png",
+        "img/inv-shotgun-in.png",
+        "img/inv-shotgun-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Shotgun",
+      "description": "He's dead now, don't you think?",
+      "level": 11
+    },
+    "stack": 1
+  },
+  {
+    "id": 25,
+    "img": {
+      "source": [
+        "img/inv-ak47-out.png",
+        "img/inv-ak47-in.png",
+        "img/inv-ak47-click.png"
+      ]
+    },
+    "detail": {
+      "name": "AK47",
+      "description": "Revolution time",
+      "level": 12
+    },
+    "stack": 1
+  },
+  {
+    "id": 26,
+    "img": {
+      "source": [
+        "img/inv-sniper-out.png",
+        "img/inv-sniper-in.png",
+        "img/inv-sniper-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Sniper",
+      "description": "For the very angry shy",
+      "level": 13
+    },
+    "stack": 1
+  },
+  {
+    "id": 27,
+    "img": {
+      "source": [
+        "img/inv-wood-wall-out.png",
+        "img/inv-wood-wall-in.png",
+        "img/inv-wood-wall-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wooden Wall",
+      "description": "Protected from the wind.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-wood-wall.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-wood-wall.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 28,
+    "img": {
+      "source": [
+        "img/inv-stone-wall-out.png",
+        "img/inv-stone-wall-in.png",
+        "img/inv-stone-wall-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Stone Wall",
+      "description": "Saved the 3 little pigs.",
+      "level": 3
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-wall.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-wall.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 29,
+    "img": {
+      "source": [
+        "img/inv-steel-wall-out.png",
+        "img/inv-steel-wall-in.png",
+        "img/inv-steel-wall-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Metal Wall",
+      "description": "Afraid we'll find you?",
+      "level": 6
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-wall.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-wall.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 30,
+    "img": {
+      "source": [
+        "img/inv-wood-door-out.png",
+        "img/inv-wood-door-in.png",
+        "img/inv-wood-door-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wooden Low Door",
+      "description": "You can shoot through it.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      35,
+      100,
+      35
+    ],
+    "height": [
+      35,
+      100,
+      35,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-wood-door.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-wood-door.png"
+    },
+    "isDoor": 1
+  },
+  {
+    "id": 31,
+    "img": {
+      "source": [
+        "img/inv-stone-door-out.png",
+        "img/inv-stone-door-in.png",
+        "img/inv-stone-door-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Stone Low Door",
+      "description": "You can shoot through it.",
+      "level": 3
+    },
+    "stack": 255,
+    "width": [
+      100,
+      35,
+      100,
+      35
+    ],
+    "height": [
+      35,
+      100,
+      35,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-door.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-door.png"
+    },
+    "isDoor": 1
+  },
+  {
+    "id": 32,
+    "img": {
+      "source": [
+        "img/inv-steel-door-out.png",
+        "img/inv-steel-door-in.png",
+        "img/inv-steel-door-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Metal Low Door",
+      "description": "Killing at home, for more comfort.",
+      "level": 6
+    },
+    "stack": 255,
+    "width": [
+      100,
+      35,
+      100,
+      35
+    ],
+    "height": [
+      35,
+      100,
+      35,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-door.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-door.png"
+    },
+    "isDoor": 1
+  },
+  {
+    "id": 33,
+    "img": {
+      "source": [
+        "img/inv-campfire-out.png",
+        "img/inv-campfire-in.png",
+        "img/inv-campfire-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Campfire",
+      "description": "Warm you when you're cold.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-campfire.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-campfire.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 34,
+    "img": {
+      "source": [
+        "img/inv-bullet-9mm-out.png",
+        "img/inv-bullet-9mm-in.png",
+        "img/inv-bullet-9mm-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Bullet",
+      "description": "For 9MM, Desert Eagle, and MP5 ",
+      "level": 6
+    },
+    "stack": 255
+  },
+  {
+    "id": 35,
+    "img": {
+      "source": [
+        "img/inv-bullet-shotgun-out.png",
+        "img/inv-bullet-shotgun-in.png",
+        "img/inv-bullet-shotgun-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Cartridge",
+      "description": "For Shotgun",
+      "level": 10
+    },
+    "stack": 255
+  },
+  {
+    "id": 36,
+    "img": {
+      "source": [
+        "img/inv-bullet-sniper-out.png",
+        "img/inv-bullet-sniper-in.png",
+        "img/inv-bullet-sniper-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Heavy Bullet",
+      "description": "For Sniper, and AK47",
+      "level": 11
+    },
+    "stack": 255
+  },
+  {
+    "id": 37,
+    "img": {
+      "source": [
+        "img/inv-medikit-out.png",
+        "img/inv-medikit-in.png",
+        "img/inv-medikit-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Medkit",
+      "description": "Regenerate your life.",
+      "level": 10
+    },
+    "stack": 2
+  },
+  {
+    "id": 38,
+    "img": {
+      "source": [
+        "img/inv-bandage-out.png",
+        "img/inv-bandage-in.png",
+        "img/inv-bandage-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Bandage",
+      "description": "To heal the boo-boos.",
+      "level": -1
+    },
+    "stack": 5
+  },
+  {
+    "id": 39,
+    "img": {
+      "source": [
+        "img/inv-soda-out.png",
+        "img/inv-soda-in.png",
+        "img/inv-soda-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Soda",
+      "description": "Give energy.",
+      "level": 5
+    },
+    "stack": 5
+  },
+  {
+    "id": 40,
+    "img": {
+      "source": [
+        "img/inv-MP5-out.png",
+        "img/inv-MP5-in.png",
+        "img/inv-MP5-click.png"
+      ]
+    },
+    "detail": {
+      "name": "MP5",
+      "description": "Not bad.",
+      "level": 10
+    },
+    "stack": 1
+  },
+  {
+    "id": 41,
+    "img": {
+      "source": [
+        "img/inv-headscarf-out.png",
+        "img/inv-headscarf-in.png",
+        "img/inv-headscarf-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Headscarf",
+      "description": "Warm you up.",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 42,
+    "img": {
+      "source": [
+        "img/inv-chapka-out.png",
+        "img/inv-chapka-in.png",
+        "img/inv-chapka-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Chapka",
+      "description": "You look like a real woodcutter.",
+      "level": 7
+    },
+    "stack": 1
+  },
+  {
+    "id": 43,
+    "img": {
+      "source": [
+        "img/inv-coat-out.png",
+        "img/inv-coat-in.png",
+        "img/inv-coat-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Winter Coat",
+      "description": "Is the weather really that cold?",
+      "level": 9
+    },
+    "stack": 1
+  },
+  {
+    "id": 44,
+    "img": {
+      "source": [
+        "img/inv-gaz-mask-out.png",
+        "img/inv-gaz-mask-in.png",
+        "img/inv-gaz-mask-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Radiation Mask",
+      "description": "Protect you from Radioactivity.",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 45,
+    "img": {
+      "source": [
+        "img/inv-gaz-protection-out.png",
+        "img/inv-gaz-protection-in.png",
+        "img/inv-gaz-protection-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Min. Radiation Suit",
+      "description": "Previously, on Breaking Bad.",
+      "level": 8
+    },
+    "stack": 1
+  },
+  {
+    "id": 46,
+    "img": {
+      "source": [
+        "img/inv-radiation-suit-out.png",
+        "img/inv-radiation-suit-in.png",
+        "img/inv-radiation-suit-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Radiation Suit",
+      "description": "Let's not grow a second head.",
+      "level": 10
+    },
+    "stack": 1
+  },
+  {
+    "id": 47,
+    "img": {
+      "source": [
+        "img/inv-wood-arrow-out.png",
+        "img/inv-wood-arrow-in.png",
+        "img/inv-wood-arrow-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wood Arrow",
+      "description": "Needed to use bow.",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 48,
+    "img": {
+      "source": [
+        "img/inv-campfire-bbq-out.png",
+        "img/inv-campfire-bbq-in.png",
+        "img/inv-campfire-bbq-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Firepit",
+      "description": "Warm up and melt iron slowly.",
+      "level": 3
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-campfire-bbq.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-campfire-bbq.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 49,
+    "img": {
+      "source": [
+        "img/inv-smelter-out.png",
+        "img/inv-smelter-in.png",
+        "img/inv-smelter-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Smelter",
+      "description": "Melt iron, uranium and alloys",
+      "level": 10
+    },
+    "stack": 255,
+    "width": [
+      100,
+      260,
+      100,
+      260
+    ],
+    "height": [
+      260,
+      100,
+      260,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-smelter.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-smelter.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 50,
+    "img": {
+      "source": [
+        "img/inv-wood-door1-out.png",
+        "img/inv-wood-door1-in.png",
+        "img/inv-wood-door1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wooden Door",
+      "description": "Let's hope it holds.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-wood-door1.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-wood-door1.png"
+    },
+    "isDoor": 1
+  },
+  {
+    "id": 51,
+    "img": {
+      "source": [
+        "img/inv-stone-door1-out.png",
+        "img/inv-stone-door1-in.png",
+        "img/inv-stone-door1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Stone Door",
+      "description": "Not too heavy to open, I hope.",
+      "level": 3
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-door1.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-door1.png"
+    },
+    "isDoor": 1
+  },
+  {
+    "id": 52,
+    "img": {
+      "source": [
+        "img/inv-steel-door1-out.png",
+        "img/inv-steel-door1-in.png",
+        "img/inv-steel-door1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Metal Door",
+      "description": "I guess you're safe.",
+      "level": 6
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-door1.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-door1.png"
+    },
+    "isDoor": 1
+  },
+  {
+    "id": 53,
+    "img": {
+      "source": [
+        "img/inv-sulfur-out.png",
+        "img/inv-sulfur-in.png",
+        "img/inv-sulfur-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Sulfur",
+      "description": "Sulfur in such a cold landscape?",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 54,
+    "img": {
+      "source": [
+        "img/inv-shaped-uranium-out.png",
+        "img/inv-shaped-uranium-in.png",
+        "img/inv-shaped-uranium-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Shaped Uranium",
+      "description": "Are you out of your mind?",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 55,
+    "img": {
+      "source": [
+        "img/inv-workbench2-out.png",
+        "img/inv-workbench2-in.png",
+        "img/inv-workbench2-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Research Bench",
+      "description": "Allow you to make new items",
+      "level": 6
+    },
+    "stack": 255,
+    "width": [
+      100,
+      280,
+      100,
+      280
+    ],
+    "height": [
+      280,
+      100,
+      280,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-workbench2.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-workbench2.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 56,
+    "img": {
+      "source": [
+        "img/inv-uranium-out.png",
+        "img/inv-uranium-in.png",
+        "img/inv-uranium-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Uranium",
+      "description": "Do you want to end up as Marie Curie?",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 57,
+    "img": {
+      "source": [
+        "img/inv-weaving-machine-out.png",
+        "img/inv-weaving-machine-in.png",
+        "img/inv-weaving-machine-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Weaving Machine",
+      "description": "Allow you to sew clothes",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-weaving-machine.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-weaving-machine.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 58,
+    "img": {
+      "source": [
+        "img/inv-gasoline-out.png",
+        "img/inv-gasoline-in.png",
+        "img/inv-gasoline-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Gasoline",
+      "description": "Fuel for Smelter",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 59,
+    "img": {
+      "source": [
+        "img/inv-sulfur-pickaxe-out.png",
+        "img/inv-sulfur-pickaxe-in.png",
+        "img/inv-sulfur-pickaxe-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Sulfur Pickaxe",
+      "description": "Mine also Uranium",
+      "level": 9
+    },
+    "stack": 1
+  },
+  {
+    "id": 60,
+    "img": {
+      "source": [
+        "img/inv-chest-out.png",
+        "img/inv-chest-in.png",
+        "img/inv-chest-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wood chest",
+      "description": "You can't store food in.",
+      "level": 8
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-chest.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-chest.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 61,
+    "img": {
+      "source": [
+        "img/inv-fridge-out.png",
+        "img/inv-fridge-in.png",
+        "img/inv-fridge-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Fridge",
+      "description": "Save your food.",
+      "level": 9
+    },
+    "stack": 255,
+    "width": [
+      50,
+      100,
+      50,
+      100
+    ],
+    "height": [
+      100,
+      50,
+      100,
+      50
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-fridge.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-fridge.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 62,
+    "img": {
+      "source": [
+        "img/inv-wood-floor-out.png",
+        "img/inv-wood-floor-in.png",
+        "img/inv-wood-floor-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wood floor",
+      "description": "Players can't spawn on it",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-wood-floor.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-wood-floor.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 63,
+    "img": {
+      "source": [
+        "img/inv-hammer-out.png",
+        "img/inv-hammer-in.png",
+        "img/inv-hammer-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Hammer",
+      "description": "Destroy walls quickly.",
+      "level": 7
+    },
+    "stack": 1
+  },
+  {
+    "id": 64,
+    "img": {
+      "source": [
+        "img/inv-sleeping-bag-out.png",
+        "img/inv-sleeping-bag-in.png",
+        "img/inv-sleeping-bag-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Sleeping Bag",
+      "description": "Once dead, you keep your base",
+      "level": 9
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-sleeping-bag.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-sleeping-bag.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 65,
+    "img": {
+      "source": [
+        "img/inv-repair-hammer-out.png",
+        "img/inv-repair-hammer-in.png",
+        "img/inv-repair-hammer-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Repair Hammer",
+      "description": "Repair walls but require nails.",
+      "level": 5
+    },
+    "stack": 1
+  },
+  {
+    "id": 66,
+    "img": {
+      "source": [
+        "img/inv-nails-out.png",
+        "img/inv-nails-in.png",
+        "img/inv-nails-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Nails",
+      "description": "Needed to repair walls.",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 67,
+    "img": {
+      "source": [
+        "img/inv-wood-floor-light-out.png",
+        "img/inv-wood-floor-light-in.png",
+        "img/inv-wood-floor-light-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Light Wood Floor",
+      "description": "Players can't spawn on it",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-woodlight-floor.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-woodlight-floor.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 68,
+    "img": {
+      "source": [
+        "img/inv-wood-smallwall-out.png",
+        "img/inv-wood-smallwall-in.png",
+        "img/inv-wood-smallwall-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wooden Low Wall",
+      "description": "You can shoot through it.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      35,
+      100,
+      35
+    ],
+    "height": [
+      35,
+      100,
+      35,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-wood-smallwall.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-wood-smallwall.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 69,
+    "img": {
+      "source": [
+        "img/inv-stone-smallwall-out.png",
+        "img/inv-stone-smallwall-in.png",
+        "img/inv-stone-smallwall-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Stone Low Wall",
+      "description": "You can shoot through it.",
+      "level": 3
+    },
+    "stack": 255,
+    "width": [
+      100,
+      35,
+      100,
+      35
+    ],
+    "height": [
+      35,
+      100,
+      35,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-smallwalls.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-smallwalls.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 70,
+    "img": {
+      "source": [
+        "img/inv-steel-smallwall-out.png",
+        "img/inv-steel-smallwall-in.png",
+        "img/inv-steel-smallwall-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Metal Low Wall",
+      "description": "You can shoot through it.",
+      "level": 6
+    },
+    "stack": 255,
+    "width": [
+      100,
+      35,
+      100,
+      35
+    ],
+    "height": [
+      35,
+      100,
+      35,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-smallwalls.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-smallwalls.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 71,
+    "img": {},
+    "detail": {},
+    "isDoor": 0
+  },
+  {
+    "id": 72,
+    "img": {
+      "source": [
+        "img/inv-tomato-soup-out.png",
+        "img/inv-tomato-soup-in.png",
+        "img/inv-tomato-soup-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Tomato Soup",
+      "description": "Has not yet been opened.",
+      "level": -1
+    },
+    "stack": 5
+  },
+  {
+    "id": 73,
+    "img": {
+      "source": [
+        "img/inv-syringe-out.png",
+        "img/inv-syringe-in.png",
+        "img/inv-syringe-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Syringe",
+      "description": "Useful to make drugs.",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 74,
+    "img": {
+      "source": [
+        "img/inv-chemical-component-out.png",
+        "img/inv-chemical-component-in.png",
+        "img/inv-chemical-component-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Chemical Component",
+      "description": "Useful to make a drugs.",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 75,
+    "img": {
+      "source": [
+        "img/inv-radaway-out.png",
+        "img/inv-radaway-in.png",
+        "img/inv-radaway-click.png"
+      ]
+    },
+    "detail": {
+      "name": "RadAway",
+      "description": "Reduce your radioactivity a lot.",
+      "level": -1
+    },
+    "stack": 5
+  },
+  {
+    "id": 76,
+    "img": {
+      "source": [
+        "img/inv-tomato-seed-out.png",
+        "img/inv-tomato-seed-in.png",
+        "img/inv-tomato-seed-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Tomato Seed",
+      "description": "A fruit or vegetable?",
+      "level": -1
+    },
+    "stack": 40,
+    "width": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "height": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-tomato.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-tomato.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 77,
+    "img": {
+      "source": [
+        "img/inv-tomato-out.png",
+        "img/inv-tomato-in.png",
+        "img/inv-tomato-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Tomato",
+      "description": "Why did the tomato blush?",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 78,
+    "img": {
+      "source": [
+        "img/inv-rotten-tomato-out.png",
+        "img/inv-rotten-tomato-in.png",
+        "img/inv-rotten-tomato-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rotten Tomato",
+      "description": "Go on, have a bite!",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 79,
+    "img": {
+      "source": [
+        "img/inv-can-out.png",
+        "img/inv-can-in.png",
+        "img/inv-can-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Can",
+      "description": "Useful to craft food can.",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 80,
+    "img": {
+      "source": [
+        "img/inv-wood-crossbow-out.png",
+        "img/inv-wood-crossbow-in.png",
+        "img/inv-wood-crossbow-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wood Crossbow",
+      "description": "Shoot faster, reload slower",
+      "level": 6
+    },
+    "stack": 1
+  },
+  {
+    "id": 81,
+    "img": {
+      "source": [
+        "img/inv-wood-crossarrow-out.png",
+        "img/inv-wood-crossarrow-in.png",
+        "img/inv-wood-crossarrow-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Crossbow Arrows",
+      "description": "Needed to use crossbow.",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 82,
+    "img": {
+      "source": [
+        "img/inv-nail-gun-out.png",
+        "img/inv-nail-gun-in.png",
+        "img/inv-nail-gun-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Nail Gun",
+      "description": "Repair walls from a distance",
+      "level": 7
+    },
+    "stack": 1
+  },
+  {
+    "id": 83,
+    "img": {
+      "source": [
+        "img/inv-sawed-off-shotgun-out.png",
+        "img/inv-sawed-off-shotgun-in.png",
+        "img/inv-sawed-off-shotgun-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Sawed Off",
+      "description": "Shoot less far, do more damages",
+      "level": 13
+    },
+    "stack": 1
+  },
+  {
+    "id": 84,
+    "img": {
+      "source": [
+        "img/inv-stone-floor-out.png",
+        "img/inv-stone-floor-in.png",
+        "img/inv-stone-floor-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Stone floor",
+      "description": "Players can't spawn on it",
+      "level": 4
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-floor.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-floor.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 85,
+    "img": {
+      "source": [
+        "img/inv-tiling-floor-out.png",
+        "img/inv-tiling-floor-in.png",
+        "img/inv-tiling-floor-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Tiling floor",
+      "description": "Players can't spawn on it",
+      "level": 4
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-tiling-floor.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-tiling-floor.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 86,
+    "img": {},
+    "detail": {},
+    "isDoor": 0
+  },
+  {
+    "id": 87,
+    "img": {
+      "source": [
+        "img/inv-chips-out.png",
+        "img/inv-chips-in.png",
+        "img/inv-chips-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Crisps",
+      "description": "You salty?",
+      "level": -1
+    },
+    "stack": 5
+  },
+  {
+    "id": 88,
+    "img": {
+      "source": [
+        "img/inv-rotten-chips-out.png",
+        "img/inv-rotten-chips-in.png",
+        "img/inv-rotten-chips-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Expired Crisps",
+      "description": "Go on, have a bite!",
+      "level": -1
+    },
+    "stack": 5
+  },
+  {
+    "id": 89,
+    "img": {
+      "source": [
+        "img/inv-electronic-part-out.png",
+        "img/inv-electronic-part-in.png",
+        "img/inv-electronic-part-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Electronic Parts",
+      "description": "Break TV's and Computers to find it",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 90,
+    "img": {
+      "source": [
+        "img/inv-junk-out.png",
+        "img/inv-junk-in.png",
+        "img/inv-junk-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Junk",
+      "description": "Find it in houses",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 91,
+    "img": {
+      "source": [
+        "img/inv-wires-out.png",
+        "img/inv-wires-in.png",
+        "img/inv-wires-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Big Wire",
+      "description": "Break big computers in power station (in the city)",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 92,
+    "img": {
+      "source": [
+        "img/inv-small-energy-cells-out.png",
+        "img/inv-small-energy-cells-in.png",
+        "img/inv-small-energy-cells-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Energy Cells",
+      "description": "Used for energy weapons/buildings",
+      "level": 6
+    },
+    "stack": 255
+  },
+  {
+    "id": 93,
+    "img": {
+      "source": [
+        "img/inv-laser-pistol-out.png",
+        "img/inv-laser-pistol-in.png",
+        "img/inv-laser-pistol-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Laser Pistol",
+      "description": "Bullets are faster.",
+      "level": 14
+    },
+    "stack": 1
+  },
+  {
+    "id": 94,
+    "img": {
+      "source": [
+        "img/inv-workbench3-out.png",
+        "img/inv-workbench3-in.png",
+        "img/inv-workbench3-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Tesla Bench",
+      "description": "Allow you to make powerful items",
+      "level": 10
+    },
+    "stack": 255,
+    "width": [
+      100,
+      260,
+      100,
+      260
+    ],
+    "height": [
+      260,
+      100,
+      260,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-workbench3.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-workbench3.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 95,
+    "img": {
+      "source": [
+        "img/inv-alloys-out.png",
+        "img/inv-alloys-in.png",
+        "img/inv-alloys-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Alloys",
+      "description": "To craft powerful items",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 96,
+    "img": {
+      "source": [
+        "img/inv-sulfur-axe-out.png",
+        "img/inv-sulfur-axe-in.png",
+        "img/inv-sulfur-axe-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Sulfur Axe",
+      "description": "You look cool with it.",
+      "level": 10
+    },
+    "stack": 1
+  },
+  {
+    "id": 97,
+    "img": {
+      "source": [
+        "img/inv-landmine-out.png",
+        "img/inv-landmine-in.png",
+        "img/inv-landmine-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Landmine",
+      "description": "When you feel it, it's too late",
+      "level": 9
+    },
+    "stack": 20,
+    "width": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "height": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-landmine.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-landmine.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 98,
+    "img": {
+      "source": [
+        "img/inv-dynamite-out.png",
+        "img/inv-dynamite-in.png",
+        "img/inv-dynamite-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Dynamite",
+      "description": "Get out of here, it gonna blow!",
+      "level": 9
+    },
+    "stack": 10,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-dynamite.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-dynamite.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 99,
+    "img": {
+      "source": [
+        "img/inv-C4-out.png",
+        "img/inv-C4-in.png",
+        "img/inv-C4-click.png"
+      ]
+    },
+    "detail": {
+      "name": "C4",
+      "description": "Explode when you hit the trigger!",
+      "level": 16
+    },
+    "stack": 5,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-C4.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-C4.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 100,
+    "img": {
+      "source": [
+        "img/inv-joystick-out.png",
+        "img/inv-joystick-in.png",
+        "img/inv-joystick-click.png"
+      ]
+    },
+    "detail": {
+      "name": "C4 Trigger",
+      "description": "Don't press the button or else...",
+      "level": 16
+    },
+    "stack": 1
+  },
+  {
+    "id": 101,
+    "img": {
+      "source": [
+        "img/inv-composter-out.png",
+        "img/inv-composter-in.png",
+        "img/inv-composter-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Compost",
+      "description": "Allows to accelerate rotting",
+      "level": 8
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-composter.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-composter.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 102,
+    "img": {
+      "source": [
+        "img/inv-metal-helmet-out.png",
+        "img/inv-metal-helmet-in.png",
+        "img/inv-metal-helmet-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Metal Helmet",
+      "description": "Protects you from melee weapons",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 103,
+    "img": {
+      "source": [
+        "img/inv-welding-helmet-out.png",
+        "img/inv-welding-helmet-in.png",
+        "img/inv-welding-helmet-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Welding Helmet",
+      "description": "Protects you from melee weapons",
+      "level": 7
+    },
+    "stack": 1
+  },
+  {
+    "id": 104,
+    "img": {
+      "source": [
+        "img/inv-gladiator-helmet-out.png",
+        "img/inv-gladiator-helmet-in.png",
+        "img/inv-gladiator-helmet-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Gladiator Helmet",
+      "description": "Strength and honor.",
+      "level": 17
+    },
+    "stack": 1
+  },
+  {
+    "id": 105,
+    "img": {
+      "source": [
+        "img/inv-leather-jacket-out.png",
+        "img/inv-leather-jacket-in.png",
+        "img/inv-leather-jacket-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Leather Jacket",
+      "description": "Protects you from guns",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 106,
+    "img": {
+      "source": [
+        "img/inv-kevlar-suit-out.png",
+        "img/inv-kevlar-suit-in.png",
+        "img/inv-kevlar-suit-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Kevlar Suit",
+      "description": "Protects you from guns",
+      "level": 12
+    },
+    "stack": 1
+  },
+  {
+    "id": 107,
+    "img": {
+      "source": [
+        "img/inv-SWAT-suit-out.png",
+        "img/inv-SWAT-suit-in.png",
+        "img/inv-SWAT-suit-click.png"
+      ]
+    },
+    "detail": {
+      "name": "SWAT Suit",
+      "description": "Protects you from guns",
+      "level": 18
+    },
+    "stack": 1
+  },
+  {
+    "id": 108,
+    "img": {
+      "source": [
+        "img/inv-protective-suit-out.png",
+        "img/inv-protective-suit-in.png",
+        "img/inv-protective-suit-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Protective Suit",
+      "description": "Protects you from explosives",
+      "level": 12
+    },
+    "stack": 1
+  },
+  {
+    "id": 109,
+    "img": {
+      "source": [
+        "img/inv-tesla-0-out.png",
+        "img/inv-tesla-0-in.png",
+        "img/inv-tesla-0-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Power Armor",
+      "description": "Protects you from energy weapons",
+      "level": 10
+    },
+    "stack": 1
+  },
+  {
+    "id": 110,
+    "img": {
+      "source": [
+        "img/inv-tesla-armor-out.png",
+        "img/inv-tesla-armor-in.png",
+        "img/inv-tesla-armor-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Tesla Armor",
+      "description": "Protects you from energy weapons",
+      "level": 18
+    },
+    "stack": 1
+  },
+  {
+    "id": 111,
+    "img": {
+      "source": [
+        "img/inv-wood-spike-out.png",
+        "img/inv-wood-spike-in.png",
+        "img/inv-wood-spike-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Wooden Spike",
+      "description": "Hurt and slow down",
+      "level": -1
+    },
+    "stack": 40,
+    "width": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "height": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-wood-spike.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-wood-spike.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 112,
+    "img": {
+      "source": [
+        "img/inv-laser-submachine-out.png",
+        "img/inv-laser-submachine-in.png",
+        "img/inv-laser-submachine-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Laser Submachine",
+      "description": "It's the best weapon",
+      "level": 14
+    },
+    "stack": 1
+  },
+  {
+    "id": 113,
+    "img": {
+      "source": [
+        "img/inv-grenade-out.png",
+        "img/inv-grenade-in.png",
+        "img/inv-grenade-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Grenade",
+      "description": "Explodes when you throw it away.",
+      "level": 10
+    },
+    "stack": 10
+  },
+  {
+    "id": 114,
+    "img": {
+      "source": [
+        "img/inv-super-hammer-out.png",
+        "img/inv-super-hammer-in.png",
+        "img/inv-super-hammer-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Super Hammer",
+      "description": "Destroy indestructible walls.",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 115,
+    "img": {
+      "source": [
+        "img/inv-ghoul-blood-out.png",
+        "img/inv-ghoul-blood-in.png",
+        "img/inv-ghoul-blood-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Ghoul Blood",
+      "description": "Find it on speedy ghouls",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 116,
+    "img": {
+      "source": [
+        "img/inv-camouflage-gear-out.png",
+        "img/inv-camouflage-gear-in.png",
+        "img/inv-camouflage-gear-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Camouflage Gear",
+      "description": "Hide you in the forest",
+      "level": -1
+    },
+    "stack": 1
+  },
+  {
+    "id": 117,
+    "img": {
+      "source": [
+        "img/inv-agitator-out.png",
+        "img/inv-agitator-in.png",
+        "img/inv-agitator-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Agitator",
+      "description": "Allows to craft drugs",
+      "level": 8
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-agitator.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-agitator.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 118,
+    "img": {
+      "source": [
+        "img/inv-ghoul-drug-out.png",
+        "img/inv-ghoul-drug-in.png",
+        "img/inv-ghoul-drug-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Ghoul Drug",
+      "description": "Ghouls does not attack you.",
+      "level": 10
+    },
+    "stack": 5
+  },
+  {
+    "id": 119,
+    "img": {
+      "source": [
+        "img/inv-mushroom1-out.png",
+        "img/inv-mushroom1-in.png",
+        "img/inv-mushroom1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Amanita",
+      "description": "Poisoned, really dangerous",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 120,
+    "img": {
+      "source": [
+        "img/inv-mushroom2-out.png",
+        "img/inv-mushroom2-in.png",
+        "img/inv-mushroom2-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Boletus",
+      "description": "Can be eaten.",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 121,
+    "img": {
+      "source": [
+        "img/inv-mushroom3-out.png",
+        "img/inv-mushroom3-in.png",
+        "img/inv-mushroom3-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Russula",
+      "description": "Can be eaten.",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 122,
+    "img": {
+      "source": [
+        "img/inv-rotten-mushroom1-out.png",
+        "img/inv-rotten-mushroom1-in.png",
+        "img/inv-rotten-mushroom1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rotten Mushroom",
+      "description": "Go on, have a bite!",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 123,
+    "img": {
+      "source": [
+        "img/inv-rotten-mushroom2-out.png",
+        "img/inv-rotten-mushroom2-in.png",
+        "img/inv-rotten-mushroom2-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rotten Mushroom",
+      "description": "Go on, have a bite!",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 124,
+    "img": {
+      "source": [
+        "img/inv-rotten-mushroom3-out.png",
+        "img/inv-rotten-mushroom3-in.png",
+        "img/inv-rotten-mushroom3-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rotten Mushroom",
+      "description": "Go on, have a bite!",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 125,
+    "img": {
+      "source": [
+        "img/inv-lapadoine-out.png",
+        "img/inv-lapadoine-in.png",
+        "img/inv-lapadoine-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Lapadone",
+      "description": "You are faster a certain time.",
+      "level": 14
+    },
+    "stack": 5
+  },
+  {
+    "id": 126,
+    "img": {
+      "source": [
+        "img/inv-lapabot-out.png",
+        "img/inv-lapabot-in.png",
+        "img/inv-lapabot-click.png"
+      ]
+    },
+    "detail": {
+      "name": "LapaBot",
+      "description": "Repair your base for you",
+      "level": 8
+    },
+    "stack": 5,
+    "width": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "height": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-lapabot.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-lapabot.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 127,
+    "img": {
+      "source": [
+        "img/inv-small-wire-out.png",
+        "img/inv-small-wire-in.png",
+        "img/inv-small-wire-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Small Wire",
+      "description": "Find it on TV's and computers in abandonned houses",
+      "level": -1
+    },
+    "stack": 255
+  },
+  {
+    "id": 128,
+    "img": {
+      "source": [
+        "img/inv-pumpkin-out.png",
+        "img/inv-pumpkin-in.png",
+        "img/inv-pumpkin-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Pumpkin",
+      "description": "Eat it or craft a pumpkin ghoul",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 129,
+    "img": {
+      "source": [
+        "img/inv-rotten-pumpkin-out.png",
+        "img/inv-rotten-pumpkin-in.png",
+        "img/inv-rotten-pumpkin-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rotten Pumpkin",
+      "description": "You should not click",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 130,
+    "img": {
+      "source": [
+        "img/inv-ghoul5-out.png",
+        "img/inv-ghoul5-in.png",
+        "img/inv-ghoul5-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Ghoul Seed",
+      "description": "Plant your pumpkin pet",
+      "level": 99
+    },
+    "stack": 40,
+    "width": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "height": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-root.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-root.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 131,
+    "img": {
+      "source": [
+        "img/inv-extractor-out.png",
+        "img/inv-extractor-in.png",
+        "img/inv-extractor-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Extractor",
+      "description": "Allows you to extract minerals from the ground",
+      "level": 12
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-extractor.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-extractor.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 132,
+    "img": {
+      "source": [
+        "img/inv-antidote-out.png",
+        "img/inv-antidote-in.png",
+        "img/inv-antidote-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Antidote",
+      "description": "Remove the withdrawal effects (pink skin)",
+      "level": 14
+    },
+    "stack": 5
+  },
+  {
+    "id": 133,
+    "img": {
+      "source": [
+        "img/inv-antidote-flower-out.png",
+        "img/inv-antidote-flower-in.png",
+        "img/inv-antidote-flower-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rare Flower",
+      "description": "Use it to make an antidote",
+      "level": -1
+    },
+    "stack": 5
+  },
+  {
+    "id": 134,
+    "img": {
+      "source": [
+        "img/inv-seed-tree-out.png",
+        "img/inv-seed-tree-in.png",
+        "img/inv-seed-tree-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Tree Seed",
+      "description": "Plant your forest",
+      "level": -1
+    },
+    "stack": 100,
+    "width": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "height": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-plant-tree.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-plant-tree.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 135,
+    "img": {
+      "source": [
+        "img/inv-acorn-out.png",
+        "img/inv-acorn-in.png",
+        "img/inv-acorn-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Acorn",
+      "description": "Eat it or plant a tree",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 136,
+    "img": {
+      "source": [
+        "img/inv-rotten-acorn-out.png",
+        "img/inv-rotten-acorn-in.png",
+        "img/inv-rotten-acorn-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Rotten Acorn",
+      "description": "Not really good",
+      "level": -1
+    },
+    "stack": 20
+  },
+  {
+    "id": 137,
+    "img": {
+      "source": [
+        "img/inv-laser-sniper-out.png",
+        "img/inv-laser-sniper-in.png",
+        "img/inv-laser-sniper-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Laser Sniper",
+      "description": "Faster than a sniper",
+      "level": 14
+    },
+    "stack": 1
+  },
+  {
+    "id": 138,
+    "img": {
+      "source": [
+        "img/inv-hal-bot-out.png",
+        "img/inv-hal-bot-in.png",
+        "img/inv-hal-bot-click.png"
+      ]
+    },
+    "detail": {
+      "name": "HAL Bot",
+      "description": "Protect you",
+      "level": 8
+    },
+    "stack": 5,
+    "width": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "height": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-hal-bot.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-hal-bot.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 139,
+    "img": {
+      "source": [
+        "img/inv-tesla-bot-out.png",
+        "img/inv-tesla-bot-in.png",
+        "img/inv-tesla-bot-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Tesla Bot",
+      "description": "Protect you",
+      "level": 16
+    },
+    "stack": 5,
+    "width": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "height": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-tesla-bot.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-tesla-bot.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 140,
+    "img": {
+      "source": [
+        "img/inv-wire0-out.png",
+        "img/inv-wire0-in.png",
+        "img/inv-wire0-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Cable",
+      "description": "Create automatic mechanisms",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-wire0.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-wire0.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 141,
+    "img": {
+      "source": [
+        "img/inv-wire1-out.png",
+        "img/inv-wire1-in.png",
+        "img/inv-wire1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Cable",
+      "description": "Create automatic mechanisms",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-wire1.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-wire1.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 142,
+    "img": {
+      "source": [
+        "img/inv-wire2-out.png",
+        "img/inv-wire2-in.png",
+        "img/inv-wire2-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Cable",
+      "description": "Create automatic mechanisms",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-wire2.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-wire2.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 157,
+    "img": {
+      "source": [
+        "img/inv-wire3-out.png",
+        "img/inv-wire3-in.png",
+        "img/inv-wire3-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Cable",
+      "description": "Create automatic mechanisms",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-wire3.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-wire3.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 144,
+    "img": {
+      "source": [
+        "img/inv-switch-out.png",
+        "img/inv-switch-in.png",
+        "img/inv-switch-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Switch",
+      "description": "Turn on/off mechanisms",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-switch.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-switch.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 145,
+    "img": {
+      "source": [
+        "img/inv-switch-or-out.png",
+        "img/inv-switch-or-in.png",
+        "img/inv-switch-or-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Gate OR",
+      "description": "Activate only if an entry is on.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-switch-or.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-switch-or.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 146,
+    "img": {
+      "source": [
+        "img/inv-switch-and-out.png",
+        "img/inv-switch-and-in.png",
+        "img/inv-switch-and-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Gate AND",
+      "description": "Activate only if all entries are on.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-switch-and.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-switch-and.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 147,
+    "img": {
+      "source": [
+        "img/inv-switch-reverse-out.png",
+        "img/inv-switch-reverse-in.png",
+        "img/inv-switch-reverse-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Gate NOT",
+      "description": "Activate only if no entry is on.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-switch-reverse.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-switch-reverse.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 148,
+    "img": {
+      "source": [
+        "img/inv-lamp-white-out.png",
+        "img/inv-lamp-white-in.png",
+        "img/inv-lamp-white-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Lamp",
+      "description": "Turn on when connected, damage ghoul",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-lamp.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-lamp.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 149,
+    "img": {
+      "source": [
+        "img/inv-cable-wall-out.png",
+        "img/inv-cable-wall-in.png",
+        "img/inv-cable-wall-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Cable  - Wall",
+      "description": "Wall that can be connected to a cable",
+      "level": 7
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-cable-wall.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-cable-wall.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 150,
+    "img": {
+      "source": [
+        "img/inv-automatic-door-out.png",
+        "img/inv-automatic-door-in.png",
+        "img/inv-automatic-door-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Automatic Door",
+      "description": "Connect it to a switch to open and close it.",
+      "level": 7
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-automatic-door.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-automatic-door.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 151,
+    "img": {
+      "source": [
+        "img/inv-platform-out.png",
+        "img/inv-platform-in.png",
+        "img/inv-platform-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Platform",
+      "description": "Weight detector",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-platform-off.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-platform-off.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 152,
+    "img": {
+      "source": [
+        "img/inv-stone-cave-out.png",
+        "img/inv-stone-cave-in.png",
+        "img/inv-stone-cave-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Stone Cave",
+      "description": "Build mountains.",
+      "level": 99
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-stone-cave.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-stone-cave.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 153,
+    "img": {
+      "source": [
+        "img/inv-bunker-wall-out.png",
+        "img/inv-bunker-wall-in.png",
+        "img/inv-bunker-wall-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Bunker Wall",
+      "description": "Good old memory of the wasteland.",
+      "level": 99
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-bunker-wall.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-bunker-wall.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 154,
+    "img": {
+      "source": [
+        "img/inv-mustard-floor-out.png",
+        "img/inv-mustard-floor-in.png",
+        "img/inv-mustard-floor-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Golden Floor",
+      "description": "Players can't spawn on it",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-floor.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-floor.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 155,
+    "img": {
+      "source": [
+        "img/inv-red-floor-out.png",
+        "img/inv-red-floor-in.png",
+        "img/inv-red-floor-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Red floor",
+      "description": "Players can't spawn on it",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/day-clear-blue-stone-floor.png"
+    },
+    "notputableimg": {
+      "source": "img/day-redprint-stone-floor.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 156,
+    "img": {
+      "source": [
+        "img/inv-welding-machine-out.png",
+        "img/inv-welding-machine-in.png",
+        "img/inv-welding-machine-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Welding Machine",
+      "description": "Allow you to make logic gates",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-welding-machine.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-welding-machine.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 157,
+    "img": {
+      "source": [
+        "img/inv-wire4-out.png",
+        "img/inv-wire4-in.png",
+        "img/inv-wire4-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Cable  - Bridge",
+      "description": "Create automatic mechanisms",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-wire4.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-wire4.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 158,
+    "img": {
+      "source": [
+        "img/inv-timer-out.png",
+        "img/inv-timer-in.png",
+        "img/inv-timer-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Gate Timer",
+      "description": "Emit a signal regularly.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-timer.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-timer.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 159,
+    "img": {
+      "source": [
+        "img/inv-xor-out.png",
+        "img/inv-xor-in.png",
+        "img/inv-xor-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Gate Xor",
+      "description": "Activate only if only one entry is on.",
+      "level": -1
+    },
+    "stack": 255,
+    "width": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "height": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "putableimg": {
+      "source": "img/clear-blue-xor.png"
+    },
+    "notputableimg": {
+      "source": "img/redprint-xor.png"
+    },
+    "isDoor": 0
+  },
+  {
+    "id": 160,
+    "img": {
+      "source": [
+        "img/skill-eye1-out.png",
+        "img/skill-eye1-in.png",
+        "img/skill-eye1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Vision 1",
+      "description": "Improve your vision",
+      "level": 0
+    }
+  },
+  {
+    "id": 161,
+    "img": {
+      "source": [
+        "img/skill-eye2-out.png",
+        "img/skill-eye2-in.png",
+        "img/skill-eye2-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Vision 2",
+      "description": "Improve your vision",
+      "level": 5
+    }
+  },
+  {
+    "id": 162,
+    "img": {
+      "source": [
+        "img/skill-eye3-out.png",
+        "img/skill-eye3-in.png",
+        "img/skill-eye3-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Vision 3",
+      "description": "Improve your vision",
+      "level": 7
+    }
+  },
+  {
+    "id": 163,
+    "img": {
+      "source": [
+        "img/skill-builder1-out.png",
+        "img/skill-builder1-in.png",
+        "img/skill-builder1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Builder 1",
+      "description": "Multiplies some craft by two",
+      "level": 6
+    }
+  },
+  {
+    "id": 164,
+    "img": {
+      "source": [
+        "img/skill-builder2-out.png",
+        "img/skill-builder2-in.png",
+        "img/skill-builder2-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Builder 2",
+      "description": "Repair much faster",
+      "level": 18
+    }
+  },
+  {
+    "id": 165,
+    "img": {
+      "source": [
+        "img/skill-inv1-out.png",
+        "img/skill-inv1-in.png",
+        "img/skill-inv1-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Inventory 1",
+      "description": "Add a slot in your inventory",
+      "level": 0
+    }
+  },
+  {
+    "id": 166,
+    "img": {
+      "source": [
+        "img/skill-inv2-out.png",
+        "img/skill-inv2-in.png",
+        "img/skill-inv2-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Inventory 2",
+      "description": "Add a slot in your inventory",
+      "level": 5
+    }
+  },
+  {
+    "id": 167,
+    "img": {
+      "source": [
+        "img/skill-inv3-out.png",
+        "img/skill-inv3-in.png",
+        "img/skill-inv3-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Inventory 3",
+      "description": "Add a slot in your bag",
+      "level": 7
+    }
+  },
+  {
+    "id": 168,
+    "img": {
+      "source": [
+        "img/skill-inv4-out.png",
+        "img/skill-inv4-in.png",
+        "img/skill-inv4-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Inventory 4",
+      "description": "Add two slots in your bag",
+      "level": 10
+    }
+  },
+  {
+    "id": 169,
+    "img": {
+      "source": [
+        "img/skill-inv5-out.png",
+        "img/skill-inv5-in.png",
+        "img/skill-inv5-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Inventory 5",
+      "description": "Add three slots in your bag",
+      "level": 12
+    }
+  },
+  {
+    "id": 170,
+    "img": {
+      "source": [
+        "img/skill-lightweight-out.png",
+        "img/skill-lightweight-in.png",
+        "img/skill-lightweight-click.png"
+      ]
+    },
+    "detail": {
+      "name": "Light Weight",
+      "description": "Less likely to trigger traps.",
+      "level": 8
+    }
+  }
+]

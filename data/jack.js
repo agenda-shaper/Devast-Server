@@ -20633,7 +20633,37 @@ const items = [
     },
   },
 ];
-const jsonOutput = JSON.stringify(jsonObject, null, 2);
+
+// Remove the "W" property from each object
+const ClearedItems = items.map((item) => {
+  let {
+    id,
+    img: { source = [] } = {},
+    detail: { name, description, level },
+    stack,
+    width,
+    height,
+    putableimg: { source: putableimgSource } = {}, // Extract the source property
+    notputableimg: { source: notputableimgSource } = {}, // Extract the source property
+    isDoor,
+  } = item;
+
+  return {
+    id,
+    img: { source: source.length > 0 ? source : undefined }, // Only include source if it's not empty
+    detail: { name, description, level },
+    stack,
+    width,
+    height,
+    putableimg: putableimgSource ? { source: putableimgSource } : undefined, // Include putableimg source
+    notputableimg: notputableimgSource
+      ? { source: notputableimgSource }
+      : undefined, // Include notputableimg source
+    isDoor,
+  };
+});
+
+const jsonOutput = JSON.stringify(ClearedItems, null, 2);
 fs.writeFile("items.json", jsonOutput, "utf8", (err) => {
   if (err) {
     console.error("Error writing to file:", err);
