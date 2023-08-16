@@ -277,7 +277,6 @@ class Tile {
 class GameEngine {
   constructor() {
     this.players = [];
-    this.clans = [];
     this.BlockTiles = [];
     this.Projectiles = [];
     this.serverType = 0; // 0 - normal, for ghoulmode
