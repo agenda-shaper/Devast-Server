@@ -20643,31 +20643,38 @@ const ClearedItems = items.map((item) => {
     stack,
     width,
     height,
-    putableimg: { source: putableimgSource } = {}, // Extract the source property
-    notputableimg: { source: notputableimgSource } = {}, // Extract the source property
+    putableimg: { source: putableimgSource } = {},
+    notputableimg: { source: notputableimgSource } = {},
     isDoor,
   } = item;
 
+  let ground_img = "";
+  if (source.length > 0) {
+    ground_img = source[0].replace("inv-", "day-ground-");
+    ground_img = ground_img.replace("-out", "");
+  }
+
   return {
     id,
-    img: { source: source.length > 0 ? source : undefined }, // Only include source if it's not empty
+    img: { source: source.length > 0 ? source : undefined },
     detail: { name, description, level },
     stack,
     width,
     height,
-    putableimg: putableimgSource ? { source: putableimgSource } : undefined, // Include putableimg source
+    putableimg: putableimgSource ? { source: putableimgSource } : undefined,
     notputableimg: notputableimgSource
       ? { source: notputableimgSource }
-      : undefined, // Include notputableimg source
+      : undefined,
     isDoor,
+    ground_img,
   };
 });
 
-const jsonOutput = JSON.stringify(ClearedItems, null, 2);
+const jsonOutput = JSON.stringify({ items: ClearedItems }, null, 2);
 fs.writeFile("items.json", jsonOutput, "utf8", (err) => {
   if (err) {
     console.error("Error writing to file:", err);
   } else {
-    console.log("JSON data has been written to output.json");
+    console.log("JSON data has been written to items.json");
   }
 });
