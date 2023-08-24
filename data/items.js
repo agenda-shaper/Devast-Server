@@ -1174,7 +1174,7 @@ const items = [
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-wall-broken0.png",
         W: {
@@ -1559,7 +1559,7 @@ const items = [
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-wall-broken0.png",
         W: {
@@ -1944,7 +1944,7 @@ const items = [
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-steel-wall-broken0.png",
         W: {
@@ -2345,7 +2345,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-door-broken0.png",
         W: {
@@ -2468,7 +2468,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-door-broken0.png",
         W: {
@@ -2591,7 +2591,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-steel-door-broken0.png",
         W: {
@@ -3629,7 +3629,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-door1-broken0.png",
         W: {
@@ -3752,7 +3752,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-door1-broken0.png",
         W: {
@@ -3875,7 +3875,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-steel-door1-broken0.png",
         W: {
@@ -4545,7 +4545,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-floor-broken0.png",
         W: {
@@ -5124,7 +5124,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-floor-light-broken0.png",
         W: {
@@ -5513,7 +5513,7 @@ const items = [
     VvMvv: 6,
     MmVVV: 46,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-smallwalls-broken0.png",
         W: {
@@ -5860,7 +5860,7 @@ const items = [
     VvMvv: 6,
     MmVVV: 46,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-smallwalls-broken0.png",
         W: {
@@ -6207,7 +6207,7 @@ const items = [
     VvMvv: 6,
     MmVVV: 46,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-steel-smallwalls-broken0.png",
         W: {
@@ -7052,7 +7052,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-computer0.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-computer0.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -7166,7 +7170,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-washbasin0.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-washbasin0.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -7233,7 +7241,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-furniture0.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-furniture0.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -7300,7 +7312,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-furniture1.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-furniture1.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -7367,7 +7383,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-furniture2.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-furniture2.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -7434,7 +7454,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-furniture3.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-furniture3.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -8248,7 +8272,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-cupboard0.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-cupboard0.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -8395,7 +8423,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-ammo-box.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-ammo-box.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -9776,7 +9808,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-furniture4.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-furniture4.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -9843,7 +9879,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-furniture5.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-furniture5.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -9910,7 +9950,11 @@ const items = [
         WWv: 0,
         WmW: 315360000000,
         img: {
-          source: ["img/day-furniture6.png", "img/useless.png", "img/useless.png"],
+          source: [
+            "img/day-furniture6.png",
+            "img/useless.png",
+            "img/useless.png",
+          ],
           W: [
             {
               m: 0,
@@ -10963,7 +11007,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-floor-broken0.png",
         W: {
@@ -11344,7 +11388,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-tiling-floor-broken0.png",
         W: {
@@ -14675,7 +14719,11 @@ const items = [
   {
     id: 99,
     img: {
-      source: ["img/inv-C4-out.png", "img/inv-C4-in.png", "img/inv-C4-click.png"],
+      source: [
+        "img/inv-C4-out.png",
+        "img/inv-C4-in.png",
+        "img/inv-C4-click.png",
+      ],
       W: [
         {
           m: 0,
@@ -18403,7 +18451,7 @@ const items = [
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-cave-broken0.png",
         W: {
@@ -18791,7 +18839,7 @@ const items = [
       1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-bunker-wall-broken0.png",
         W: {
@@ -19172,7 +19220,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-mustard-floor-broken0.png",
         W: {
@@ -19553,7 +19601,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-red-floor-broken0.png",
         W: {
