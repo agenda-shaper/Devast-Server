@@ -1175,7 +1175,7 @@ const items = [
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-wall-broken0.png",
         W: {
@@ -1560,7 +1560,7 @@ const items = [
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-wall-broken0.png",
         W: {
@@ -1945,7 +1945,7 @@ const items = [
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-steel-wall-broken0.png",
         W: {
@@ -2346,7 +2346,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-door-broken0.png",
         W: {
@@ -2469,7 +2469,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-door-broken0.png",
         W: {
@@ -2592,7 +2592,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-steel-door-broken0.png",
         W: {
@@ -3630,7 +3630,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-door1-broken0.png",
         W: {
@@ -3753,7 +3753,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-door1-broken0.png",
         W: {
@@ -3876,7 +3876,7 @@ const items = [
         m: 0,
       },
     },
-    WVW: [
+    broken: [
       {
         source: "img/day-steel-door1-broken0.png",
         W: {
@@ -4546,7 +4546,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-floor-broken0.png",
         W: {
@@ -5125,7 +5125,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-floor-light-broken0.png",
         W: {
@@ -5514,7 +5514,7 @@ const items = [
     VvMvv: 6,
     MmVVV: 46,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-wood-smallwalls-broken0.png",
         W: {
@@ -5861,7 +5861,7 @@ const items = [
     VvMvv: 6,
     MmVVV: 46,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-smallwalls-broken0.png",
         W: {
@@ -6208,7 +6208,7 @@ const items = [
     VvMvv: 6,
     MmVVV: 46,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-steel-smallwalls-broken0.png",
         W: {
@@ -11008,7 +11008,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-floor-broken0.png",
         W: {
@@ -11389,7 +11389,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-tiling-floor-broken0.png",
         W: {
@@ -18452,7 +18452,7 @@ const items = [
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-stone-cave-broken0.png",
         W: {
@@ -18840,7 +18840,7 @@ const items = [
       1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0,
       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
-    WVW: [
+    broken: [
       {
         source: "img/day-bunker-wall-broken0.png",
         W: {
@@ -19221,7 +19221,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-mustard-floor-broken0.png",
         W: {
@@ -19602,7 +19602,7 @@ const items = [
     nvN: 0,
     MMN: 0,
     WnW: 0,
-    WVW: [
+    broken: [
       {
         source: "img/day-red-floor-broken0.png",
         W: {
@@ -20634,7 +20634,6 @@ const items = [
   },
 ];
 
-// Remove the "W" property from each object
 const ClearedItems = items.map((item) => {
   let {
     id,
@@ -20646,7 +20645,12 @@ const ClearedItems = items.map((item) => {
     putableimg: { source: putableimgSource } = {},
     notputableimg: { source: notputableimgSource } = {},
     isDoor,
+    broken, // Added broken field
+    instation, // Added instation field
   } = item;
+
+  //console.log(typeof broken);
+  //console.log(typeof instation);
 
   let ground_img = "";
   if (source.length > 0) {
@@ -20666,6 +20670,13 @@ const ClearedItems = items.map((item) => {
       ? { source: notputableimgSource }
       : undefined,
     isDoor,
+    broken: Array.isArray(broken)
+      ? broken.map(({ source }) => ({ source }))
+      : undefined,
+    instation: Array.isArray(instation)
+      ? instation.map(({ source }) => ({ source }))
+      : undefined,
+
     ground_img,
   };
 });
