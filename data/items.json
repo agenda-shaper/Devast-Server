@@ -236,8 +236,18 @@
         "level": -1
       },
       "stack": 40,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-plant2-orange.png"
       },
@@ -245,6 +255,23 @@
         "source": "img/day-redprint-plant2-orange.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant0-orange.png"
+        },
+        {
+          "source": "img/day-plant1-orange.png"
+        },
+        {
+          "source": "img/day-plant2-orange.png"
+        },
+        {
+          "source": "img/day-plant3-orange.png"
+        },
+        {
+          "source": "img/day-plant4-orange.png"
+        }
+      ],
       "ground_img": "img/day-ground-orange-seed.png"
     },
     {
@@ -473,8 +500,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-wall.png"
       },
@@ -482,6 +519,160 @@
         "source": "img/day-redprint-wood-wall.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-wall-broken0.png"
+        },
+        {
+          "source": "img/day-wood-wall-broken1.png"
+        },
+        {
+          "source": "img/day-wood-wall-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-wall0.png"
+        },
+        {
+          "source": "img/day-wood-wall1.png"
+        },
+        {
+          "source": "img/day-wood-wall2.png"
+        },
+        {
+          "source": "img/day-wood-wall3.png"
+        },
+        {
+          "source": "img/day-wood-wall4.png"
+        },
+        {
+          "source": "img/day-wood-wall5.png"
+        },
+        {
+          "source": "img/day-wood-wall6.png"
+        },
+        {
+          "source": "img/day-wood-wall7.png"
+        },
+        {
+          "source": "img/day-wood-wall8.png"
+        },
+        {
+          "source": "img/day-wood-wall9.png"
+        },
+        {
+          "source": "img/day-wood-wall10.png"
+        },
+        {
+          "source": "img/day-wood-wall11.png"
+        },
+        {
+          "source": "img/day-wood-wall12.png"
+        },
+        {
+          "source": "img/day-wood-wall13.png"
+        },
+        {
+          "source": "img/day-wood-wall14.png"
+        },
+        {
+          "source": "img/day-wood-wall15.png"
+        },
+        {
+          "source": "img/day-wood-wall16.png"
+        },
+        {
+          "source": "img/day-wood-wall17.png"
+        },
+        {
+          "source": "img/day-wood-wall18.png"
+        },
+        {
+          "source": "img/day-wood-wall19.png"
+        },
+        {
+          "source": "img/day-wood-wall20.png"
+        },
+        {
+          "source": "img/day-wood-wall21.png"
+        },
+        {
+          "source": "img/day-wood-wall22.png"
+        },
+        {
+          "source": "img/day-wood-wall23.png"
+        },
+        {
+          "source": "img/day-wood-wall24.png"
+        },
+        {
+          "source": "img/day-wood-wall25.png"
+        },
+        {
+          "source": "img/day-wood-wall26.png"
+        },
+        {
+          "source": "img/day-wood-wall27.png"
+        },
+        {
+          "source": "img/day-wood-wall28.png"
+        },
+        {
+          "source": "img/day-wood-wall29.png"
+        },
+        {
+          "source": "img/day-wood-wall30.png"
+        },
+        {
+          "source": "img/day-wood-wall31.png"
+        },
+        {
+          "source": "img/day-wood-wall32.png"
+        },
+        {
+          "source": "img/day-wood-wall33.png"
+        },
+        {
+          "source": "img/day-wood-wall34.png"
+        },
+        {
+          "source": "img/day-wood-wall35.png"
+        },
+        {
+          "source": "img/day-wood-wall36.png"
+        },
+        {
+          "source": "img/day-wood-wall37.png"
+        },
+        {
+          "source": "img/day-wood-wall38.png"
+        },
+        {
+          "source": "img/day-wood-wall39.png"
+        },
+        {
+          "source": "img/day-wood-wall40.png"
+        },
+        {
+          "source": "img/day-wood-wall41.png"
+        },
+        {
+          "source": "img/day-wood-wall42.png"
+        },
+        {
+          "source": "img/day-wood-wall43.png"
+        },
+        {
+          "source": "img/day-wood-wall44.png"
+        },
+        {
+          "source": "img/day-wood-wall45.png"
+        },
+        {
+          "source": "img/day-wood-wall46.png"
+        }
+      ],
       "ground_img": "img/day-ground-wood-wall.png"
     },
     {
@@ -499,8 +690,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-wall.png"
       },
@@ -508,6 +709,160 @@
         "source": "img/day-redprint-stone-wall.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-wall-broken0.png"
+        },
+        {
+          "source": "img/day-stone-wall-broken1.png"
+        },
+        {
+          "source": "img/day-stone-wall-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-wall0.png"
+        },
+        {
+          "source": "img/day-stone-wall1.png"
+        },
+        {
+          "source": "img/day-stone-wall2.png"
+        },
+        {
+          "source": "img/day-stone-wall3.png"
+        },
+        {
+          "source": "img/day-stone-wall4.png"
+        },
+        {
+          "source": "img/day-stone-wall5.png"
+        },
+        {
+          "source": "img/day-stone-wall6.png"
+        },
+        {
+          "source": "img/day-stone-wall7.png"
+        },
+        {
+          "source": "img/day-stone-wall8.png"
+        },
+        {
+          "source": "img/day-stone-wall9.png"
+        },
+        {
+          "source": "img/day-stone-wall10.png"
+        },
+        {
+          "source": "img/day-stone-wall11.png"
+        },
+        {
+          "source": "img/day-stone-wall12.png"
+        },
+        {
+          "source": "img/day-stone-wall13.png"
+        },
+        {
+          "source": "img/day-stone-wall14.png"
+        },
+        {
+          "source": "img/day-stone-wall15.png"
+        },
+        {
+          "source": "img/day-stone-wall16.png"
+        },
+        {
+          "source": "img/day-stone-wall17.png"
+        },
+        {
+          "source": "img/day-stone-wall18.png"
+        },
+        {
+          "source": "img/day-stone-wall19.png"
+        },
+        {
+          "source": "img/day-stone-wall20.png"
+        },
+        {
+          "source": "img/day-stone-wall21.png"
+        },
+        {
+          "source": "img/day-stone-wall22.png"
+        },
+        {
+          "source": "img/day-stone-wall23.png"
+        },
+        {
+          "source": "img/day-stone-wall24.png"
+        },
+        {
+          "source": "img/day-stone-wall25.png"
+        },
+        {
+          "source": "img/day-stone-wall26.png"
+        },
+        {
+          "source": "img/day-stone-wall27.png"
+        },
+        {
+          "source": "img/day-stone-wall28.png"
+        },
+        {
+          "source": "img/day-stone-wall29.png"
+        },
+        {
+          "source": "img/day-stone-wall30.png"
+        },
+        {
+          "source": "img/day-stone-wall31.png"
+        },
+        {
+          "source": "img/day-stone-wall32.png"
+        },
+        {
+          "source": "img/day-stone-wall33.png"
+        },
+        {
+          "source": "img/day-stone-wall34.png"
+        },
+        {
+          "source": "img/day-stone-wall35.png"
+        },
+        {
+          "source": "img/day-stone-wall36.png"
+        },
+        {
+          "source": "img/day-stone-wall37.png"
+        },
+        {
+          "source": "img/day-stone-wall38.png"
+        },
+        {
+          "source": "img/day-stone-wall39.png"
+        },
+        {
+          "source": "img/day-stone-wall40.png"
+        },
+        {
+          "source": "img/day-stone-wall41.png"
+        },
+        {
+          "source": "img/day-stone-wall42.png"
+        },
+        {
+          "source": "img/day-stone-wall43.png"
+        },
+        {
+          "source": "img/day-stone-wall44.png"
+        },
+        {
+          "source": "img/day-stone-wall45.png"
+        },
+        {
+          "source": "img/day-stone-wall46.png"
+        }
+      ],
       "ground_img": "img/day-ground-stone-wall.png"
     },
     {
@@ -525,8 +880,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-wall.png"
       },
@@ -534,6 +899,160 @@
         "source": "img/day-redprint-stone-wall.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-steel-wall-broken0.png"
+        },
+        {
+          "source": "img/day-steel-wall-broken1.png"
+        },
+        {
+          "source": "img/day-steel-wall-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-steel-wall0.png"
+        },
+        {
+          "source": "img/day-steel-wall1.png"
+        },
+        {
+          "source": "img/day-steel-wall2.png"
+        },
+        {
+          "source": "img/day-steel-wall3.png"
+        },
+        {
+          "source": "img/day-steel-wall4.png"
+        },
+        {
+          "source": "img/day-steel-wall5.png"
+        },
+        {
+          "source": "img/day-steel-wall6.png"
+        },
+        {
+          "source": "img/day-steel-wall7.png"
+        },
+        {
+          "source": "img/day-steel-wall8.png"
+        },
+        {
+          "source": "img/day-steel-wall9.png"
+        },
+        {
+          "source": "img/day-steel-wall10.png"
+        },
+        {
+          "source": "img/day-steel-wall11.png"
+        },
+        {
+          "source": "img/day-steel-wall12.png"
+        },
+        {
+          "source": "img/day-steel-wall13.png"
+        },
+        {
+          "source": "img/day-steel-wall14.png"
+        },
+        {
+          "source": "img/day-steel-wall15.png"
+        },
+        {
+          "source": "img/day-steel-wall16.png"
+        },
+        {
+          "source": "img/day-steel-wall17.png"
+        },
+        {
+          "source": "img/day-steel-wall18.png"
+        },
+        {
+          "source": "img/day-steel-wall19.png"
+        },
+        {
+          "source": "img/day-steel-wall20.png"
+        },
+        {
+          "source": "img/day-steel-wall21.png"
+        },
+        {
+          "source": "img/day-steel-wall22.png"
+        },
+        {
+          "source": "img/day-steel-wall23.png"
+        },
+        {
+          "source": "img/day-steel-wall24.png"
+        },
+        {
+          "source": "img/day-steel-wall25.png"
+        },
+        {
+          "source": "img/day-steel-wall26.png"
+        },
+        {
+          "source": "img/day-steel-wall27.png"
+        },
+        {
+          "source": "img/day-steel-wall28.png"
+        },
+        {
+          "source": "img/day-steel-wall29.png"
+        },
+        {
+          "source": "img/day-steel-wall30.png"
+        },
+        {
+          "source": "img/day-steel-wall31.png"
+        },
+        {
+          "source": "img/day-steel-wall32.png"
+        },
+        {
+          "source": "img/day-steel-wall33.png"
+        },
+        {
+          "source": "img/day-steel-wall34.png"
+        },
+        {
+          "source": "img/day-steel-wall35.png"
+        },
+        {
+          "source": "img/day-steel-wall36.png"
+        },
+        {
+          "source": "img/day-steel-wall37.png"
+        },
+        {
+          "source": "img/day-steel-wall38.png"
+        },
+        {
+          "source": "img/day-steel-wall39.png"
+        },
+        {
+          "source": "img/day-steel-wall40.png"
+        },
+        {
+          "source": "img/day-steel-wall41.png"
+        },
+        {
+          "source": "img/day-steel-wall42.png"
+        },
+        {
+          "source": "img/day-steel-wall43.png"
+        },
+        {
+          "source": "img/day-steel-wall44.png"
+        },
+        {
+          "source": "img/day-steel-wall45.png"
+        },
+        {
+          "source": "img/day-steel-wall46.png"
+        }
+      ],
       "ground_img": "img/day-ground-steel-wall.png"
     },
     {
@@ -551,8 +1070,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-door.png"
       },
@@ -560,6 +1089,17 @@
         "source": "img/day-redprint-wood-door.png"
       },
       "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-wood-door-broken0.png"
+        },
+        {
+          "source": "img/day-wood-door-broken1.png"
+        },
+        {
+          "source": "img/day-wood-door-broken2.png"
+        }
+      ],
       "ground_img": "img/day-ground-wood-door.png"
     },
     {
@@ -577,8 +1117,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-door.png"
       },
@@ -586,6 +1136,17 @@
         "source": "img/day-redprint-stone-door.png"
       },
       "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-stone-door-broken0.png"
+        },
+        {
+          "source": "img/day-stone-door-broken1.png"
+        },
+        {
+          "source": "img/day-stone-door-broken2.png"
+        }
+      ],
       "ground_img": "img/day-ground-stone-door.png"
     },
     {
@@ -603,8 +1164,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-door.png"
       },
@@ -612,6 +1183,17 @@
         "source": "img/day-redprint-stone-door.png"
       },
       "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-steel-door-broken0.png"
+        },
+        {
+          "source": "img/day-steel-door-broken1.png"
+        },
+        {
+          "source": "img/day-steel-door-broken2.png"
+        }
+      ],
       "ground_img": "img/day-ground-steel-door.png"
     },
     {
@@ -629,8 +1211,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-campfire.png"
       },
@@ -893,8 +1485,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-campfire-bbq.png"
       },
@@ -919,8 +1521,18 @@
         "level": 10
       },
       "stack": 255,
-      "width": [100, 260, 100, 260],
-      "height": [260, 100, 260, 100],
+      "width": [
+        100,
+        260,
+        100,
+        260
+      ],
+      "height": [
+        260,
+        100,
+        260,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-smelter.png"
       },
@@ -928,6 +1540,20 @@
         "source": "img/day-redprint-smelter.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-smelter-off.png"
+        },
+        {
+          "source": "img/day-smelter-on.png"
+        },
+        {
+          "source": "img/day-smelter-light-up.png"
+        },
+        {
+          "source": "img/day-smelter-light-down.png"
+        }
+      ],
       "ground_img": "img/day-ground-smelter.png"
     },
     {
@@ -945,8 +1571,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-door1.png"
       },
@@ -954,6 +1590,17 @@
         "source": "img/day-redprint-wood-door1.png"
       },
       "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-wood-door1-broken0.png"
+        },
+        {
+          "source": "img/day-wood-door1-broken1.png"
+        },
+        {
+          "source": "img/day-wood-door1-broken2.png"
+        }
+      ],
       "ground_img": "img/day-ground-wood-door1.png"
     },
     {
@@ -971,8 +1618,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-door1.png"
       },
@@ -980,6 +1637,17 @@
         "source": "img/day-redprint-stone-door1.png"
       },
       "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-stone-door1-broken0.png"
+        },
+        {
+          "source": "img/day-stone-door1-broken1.png"
+        },
+        {
+          "source": "img/day-stone-door1-broken2.png"
+        }
+      ],
       "ground_img": "img/day-ground-stone-door1.png"
     },
     {
@@ -997,8 +1665,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-door1.png"
       },
@@ -1006,6 +1684,17 @@
         "source": "img/day-redprint-stone-door1.png"
       },
       "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-steel-door1-broken0.png"
+        },
+        {
+          "source": "img/day-steel-door1-broken1.png"
+        },
+        {
+          "source": "img/day-steel-door1-broken2.png"
+        }
+      ],
       "ground_img": "img/day-ground-steel-door1.png"
     },
     {
@@ -1057,8 +1746,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 280, 100, 280],
-      "height": [280, 100, 280, 100],
+      "width": [
+        100,
+        280,
+        100,
+        280
+      ],
+      "height": [
+        280,
+        100,
+        280,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-workbench2.png"
       },
@@ -1100,8 +1799,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-weaving-machine.png"
       },
@@ -1160,8 +1869,18 @@
         "level": 8
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-chest.png"
       },
@@ -1186,8 +1905,18 @@
         "level": 9
       },
       "stack": 255,
-      "width": [50, 100, 50, 100],
-      "height": [100, 50, 100, 50],
+      "width": [
+        50,
+        100,
+        50,
+        100
+      ],
+      "height": [
+        100,
+        50,
+        100,
+        50
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-fridge.png"
       },
@@ -1212,8 +1941,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-floor.png"
       },
@@ -1221,6 +1960,160 @@
         "source": "img/day-redprint-wood-floor.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-floor-broken0.png"
+        },
+        {
+          "source": "img/day-wood-floor-broken1.png"
+        },
+        {
+          "source": "img/day-wood-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-floor-0.png"
+        },
+        {
+          "source": "img/day-wood-floor-1.png"
+        },
+        {
+          "source": "img/day-wood-floor-2.png"
+        },
+        {
+          "source": "img/day-wood-floor-3.png"
+        },
+        {
+          "source": "img/day-wood-floor-4.png"
+        },
+        {
+          "source": "img/day-wood-floor-5.png"
+        },
+        {
+          "source": "img/day-wood-floor-6.png"
+        },
+        {
+          "source": "img/day-wood-floor-7.png"
+        },
+        {
+          "source": "img/day-wood-floor-8.png"
+        },
+        {
+          "source": "img/day-wood-floor-9.png"
+        },
+        {
+          "source": "img/day-wood-floor-10.png"
+        },
+        {
+          "source": "img/day-wood-floor-11.png"
+        },
+        {
+          "source": "img/day-wood-floor-12.png"
+        },
+        {
+          "source": "img/day-wood-floor-13.png"
+        },
+        {
+          "source": "img/day-wood-floor-14.png"
+        },
+        {
+          "source": "img/day-wood-floor-15.png"
+        },
+        {
+          "source": "img/day-wood-floor-16.png"
+        },
+        {
+          "source": "img/day-wood-floor-17.png"
+        },
+        {
+          "source": "img/day-wood-floor-18.png"
+        },
+        {
+          "source": "img/day-wood-floor-19.png"
+        },
+        {
+          "source": "img/day-wood-floor-20.png"
+        },
+        {
+          "source": "img/day-wood-floor-21.png"
+        },
+        {
+          "source": "img/day-wood-floor-22.png"
+        },
+        {
+          "source": "img/day-wood-floor-23.png"
+        },
+        {
+          "source": "img/day-wood-floor-24.png"
+        },
+        {
+          "source": "img/day-wood-floor-25.png"
+        },
+        {
+          "source": "img/day-wood-floor-26.png"
+        },
+        {
+          "source": "img/day-wood-floor-27.png"
+        },
+        {
+          "source": "img/day-wood-floor-28.png"
+        },
+        {
+          "source": "img/day-wood-floor-29.png"
+        },
+        {
+          "source": "img/day-wood-floor-30.png"
+        },
+        {
+          "source": "img/day-wood-floor-31.png"
+        },
+        {
+          "source": "img/day-wood-floor-32.png"
+        },
+        {
+          "source": "img/day-wood-floor-33.png"
+        },
+        {
+          "source": "img/day-wood-floor-34.png"
+        },
+        {
+          "source": "img/day-wood-floor-35.png"
+        },
+        {
+          "source": "img/day-wood-floor-36.png"
+        },
+        {
+          "source": "img/day-wood-floor-37.png"
+        },
+        {
+          "source": "img/day-wood-floor-38.png"
+        },
+        {
+          "source": "img/day-wood-floor-39.png"
+        },
+        {
+          "source": "img/day-wood-floor-40.png"
+        },
+        {
+          "source": "img/day-wood-floor-41.png"
+        },
+        {
+          "source": "img/day-wood-floor-42.png"
+        },
+        {
+          "source": "img/day-wood-floor-43.png"
+        },
+        {
+          "source": "img/day-wood-floor-44.png"
+        },
+        {
+          "source": "img/day-wood-floor-45.png"
+        },
+        {
+          "source": "img/day-wood-floor-46.png"
+        }
+      ],
       "ground_img": "img/day-ground-wood-floor.png"
     },
     {
@@ -1255,8 +2148,18 @@
         "level": 9
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-sleeping-bag.png"
       },
@@ -1315,8 +2218,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-woodlight-floor.png"
       },
@@ -1324,6 +2237,160 @@
         "source": "img/day-redprint-woodlight-floor.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-floor-light-broken0.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-broken1.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-floor-light-0.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-1.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-2.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-3.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-4.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-5.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-6.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-7.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-8.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-9.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-10.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-11.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-12.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-13.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-14.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-15.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-16.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-17.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-18.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-19.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-20.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-21.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-22.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-23.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-24.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-25.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-26.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-27.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-28.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-29.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-30.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-31.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-32.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-33.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-34.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-35.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-36.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-37.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-38.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-39.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-40.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-41.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-42.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-43.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-44.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-45.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-46.png"
+        }
+      ],
       "ground_img": "img/day-ground-wood-floor-light.png"
     },
     {
@@ -1341,8 +2408,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-smallwall.png"
       },
@@ -1350,6 +2427,139 @@
         "source": "img/day-redprint-wood-smallwall.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-39.png"
+        }
+      ],
       "ground_img": "img/day-ground-wood-smallwall.png"
     },
     {
@@ -1367,8 +2577,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-smallwalls.png"
       },
@@ -1376,6 +2596,139 @@
         "source": "img/day-redprint-stone-smallwalls.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-39.png"
+        }
+      ],
       "ground_img": "img/day-ground-stone-smallwall.png"
     },
     {
@@ -1393,8 +2746,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-smallwalls.png"
       },
@@ -1402,6 +2765,139 @@
         "source": "img/day-redprint-stone-smallwalls.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-steel-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-steel-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-39.png"
+        }
+      ],
       "ground_img": "img/day-ground-steel-smallwall.png"
     },
     {
@@ -1494,8 +2990,18 @@
         "level": -1
       },
       "stack": 40,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-tomato.png"
       },
@@ -1503,6 +3009,23 @@
         "source": "img/day-redprint-tomato.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant0-tomato.png"
+        },
+        {
+          "source": "img/day-plant1-tomato.png"
+        },
+        {
+          "source": "img/day-plant2-tomato.png"
+        },
+        {
+          "source": "img/day-plant3-tomato.png"
+        },
+        {
+          "source": "img/day-plant4-tomato.png"
+        }
+      ],
       "ground_img": "img/day-ground-tomato-seed.png"
     },
     {
@@ -1639,8 +3162,18 @@
         "level": 4
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-floor.png"
       },
@@ -1648,6 +3181,160 @@
         "source": "img/day-redprint-stone-floor.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-floor-broken0.png"
+        },
+        {
+          "source": "img/day-stone-floor-broken1.png"
+        },
+        {
+          "source": "img/day-stone-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-floor-0.png"
+        },
+        {
+          "source": "img/day-stone-floor-1.png"
+        },
+        {
+          "source": "img/day-stone-floor-2.png"
+        },
+        {
+          "source": "img/day-stone-floor-3.png"
+        },
+        {
+          "source": "img/day-stone-floor-4.png"
+        },
+        {
+          "source": "img/day-stone-floor-5.png"
+        },
+        {
+          "source": "img/day-stone-floor-6.png"
+        },
+        {
+          "source": "img/day-stone-floor-7.png"
+        },
+        {
+          "source": "img/day-stone-floor-8.png"
+        },
+        {
+          "source": "img/day-stone-floor-9.png"
+        },
+        {
+          "source": "img/day-stone-floor-10.png"
+        },
+        {
+          "source": "img/day-stone-floor-11.png"
+        },
+        {
+          "source": "img/day-stone-floor-12.png"
+        },
+        {
+          "source": "img/day-stone-floor-13.png"
+        },
+        {
+          "source": "img/day-stone-floor-14.png"
+        },
+        {
+          "source": "img/day-stone-floor-15.png"
+        },
+        {
+          "source": "img/day-stone-floor-16.png"
+        },
+        {
+          "source": "img/day-stone-floor-17.png"
+        },
+        {
+          "source": "img/day-stone-floor-18.png"
+        },
+        {
+          "source": "img/day-stone-floor-19.png"
+        },
+        {
+          "source": "img/day-stone-floor-20.png"
+        },
+        {
+          "source": "img/day-stone-floor-21.png"
+        },
+        {
+          "source": "img/day-stone-floor-22.png"
+        },
+        {
+          "source": "img/day-stone-floor-23.png"
+        },
+        {
+          "source": "img/day-stone-floor-24.png"
+        },
+        {
+          "source": "img/day-stone-floor-25.png"
+        },
+        {
+          "source": "img/day-stone-floor-26.png"
+        },
+        {
+          "source": "img/day-stone-floor-27.png"
+        },
+        {
+          "source": "img/day-stone-floor-28.png"
+        },
+        {
+          "source": "img/day-stone-floor-29.png"
+        },
+        {
+          "source": "img/day-stone-floor-30.png"
+        },
+        {
+          "source": "img/day-stone-floor-31.png"
+        },
+        {
+          "source": "img/day-stone-floor-32.png"
+        },
+        {
+          "source": "img/day-stone-floor-33.png"
+        },
+        {
+          "source": "img/day-stone-floor-34.png"
+        },
+        {
+          "source": "img/day-stone-floor-35.png"
+        },
+        {
+          "source": "img/day-stone-floor-36.png"
+        },
+        {
+          "source": "img/day-stone-floor-37.png"
+        },
+        {
+          "source": "img/day-stone-floor-38.png"
+        },
+        {
+          "source": "img/day-stone-floor-39.png"
+        },
+        {
+          "source": "img/day-stone-floor-40.png"
+        },
+        {
+          "source": "img/day-stone-floor-41.png"
+        },
+        {
+          "source": "img/day-stone-floor-42.png"
+        },
+        {
+          "source": "img/day-stone-floor-43.png"
+        },
+        {
+          "source": "img/day-stone-floor-44.png"
+        },
+        {
+          "source": "img/day-stone-floor-45.png"
+        },
+        {
+          "source": "img/day-stone-floor-46.png"
+        }
+      ],
       "ground_img": "img/day-ground-stone-floor.png"
     },
     {
@@ -1665,8 +3352,18 @@
         "level": 4
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-tiling-floor.png"
       },
@@ -1674,6 +3371,160 @@
         "source": "img/day-redprint-tiling-floor.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-tiling-floor-broken0.png"
+        },
+        {
+          "source": "img/day-tiling-floor-broken1.png"
+        },
+        {
+          "source": "img/day-tiling-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-tiling-floor-0.png"
+        },
+        {
+          "source": "img/day-tiling-floor-1.png"
+        },
+        {
+          "source": "img/day-tiling-floor-2.png"
+        },
+        {
+          "source": "img/day-tiling-floor-3.png"
+        },
+        {
+          "source": "img/day-tiling-floor-4.png"
+        },
+        {
+          "source": "img/day-tiling-floor-5.png"
+        },
+        {
+          "source": "img/day-tiling-floor-6.png"
+        },
+        {
+          "source": "img/day-tiling-floor-7.png"
+        },
+        {
+          "source": "img/day-tiling-floor-8.png"
+        },
+        {
+          "source": "img/day-tiling-floor-9.png"
+        },
+        {
+          "source": "img/day-tiling-floor-10.png"
+        },
+        {
+          "source": "img/day-tiling-floor-11.png"
+        },
+        {
+          "source": "img/day-tiling-floor-12.png"
+        },
+        {
+          "source": "img/day-tiling-floor-13.png"
+        },
+        {
+          "source": "img/day-tiling-floor-14.png"
+        },
+        {
+          "source": "img/day-tiling-floor-15.png"
+        },
+        {
+          "source": "img/day-tiling-floor-16.png"
+        },
+        {
+          "source": "img/day-tiling-floor-17.png"
+        },
+        {
+          "source": "img/day-tiling-floor-18.png"
+        },
+        {
+          "source": "img/day-tiling-floor-19.png"
+        },
+        {
+          "source": "img/day-tiling-floor-20.png"
+        },
+        {
+          "source": "img/day-tiling-floor-21.png"
+        },
+        {
+          "source": "img/day-tiling-floor-22.png"
+        },
+        {
+          "source": "img/day-tiling-floor-23.png"
+        },
+        {
+          "source": "img/day-tiling-floor-24.png"
+        },
+        {
+          "source": "img/day-tiling-floor-25.png"
+        },
+        {
+          "source": "img/day-tiling-floor-26.png"
+        },
+        {
+          "source": "img/day-tiling-floor-27.png"
+        },
+        {
+          "source": "img/day-tiling-floor-28.png"
+        },
+        {
+          "source": "img/day-tiling-floor-29.png"
+        },
+        {
+          "source": "img/day-tiling-floor-30.png"
+        },
+        {
+          "source": "img/day-tiling-floor-31.png"
+        },
+        {
+          "source": "img/day-tiling-floor-32.png"
+        },
+        {
+          "source": "img/day-tiling-floor-33.png"
+        },
+        {
+          "source": "img/day-tiling-floor-34.png"
+        },
+        {
+          "source": "img/day-tiling-floor-35.png"
+        },
+        {
+          "source": "img/day-tiling-floor-36.png"
+        },
+        {
+          "source": "img/day-tiling-floor-37.png"
+        },
+        {
+          "source": "img/day-tiling-floor-38.png"
+        },
+        {
+          "source": "img/day-tiling-floor-39.png"
+        },
+        {
+          "source": "img/day-tiling-floor-40.png"
+        },
+        {
+          "source": "img/day-tiling-floor-41.png"
+        },
+        {
+          "source": "img/day-tiling-floor-42.png"
+        },
+        {
+          "source": "img/day-tiling-floor-43.png"
+        },
+        {
+          "source": "img/day-tiling-floor-44.png"
+        },
+        {
+          "source": "img/day-tiling-floor-45.png"
+        },
+        {
+          "source": "img/day-tiling-floor-46.png"
+        }
+      ],
       "ground_img": "img/day-ground-tiling-floor.png"
     },
     {
@@ -1817,8 +3668,18 @@
         "level": 10
       },
       "stack": 255,
-      "width": [100, 260, 100, 260],
-      "height": [260, 100, 260, 100],
+      "width": [
+        100,
+        260,
+        100,
+        260
+      ],
+      "height": [
+        260,
+        100,
+        260,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-workbench3.png"
       },
@@ -1826,6 +3687,20 @@
         "source": "img/day-redprint-workbench3.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-workbench3.png"
+        },
+        {
+          "source": "img/day-workbench3-1.png"
+        },
+        {
+          "source": "img/day-workbench3-2.png"
+        },
+        {
+          "source": "img/day-workbench3-3.png"
+        }
+      ],
       "ground_img": "img/day-ground-workbench3.png"
     },
     {
@@ -1877,8 +3752,18 @@
         "level": 9
       },
       "stack": 20,
-      "width": [50, 50, 50, 50],
-      "height": [50, 50, 50, 50],
+      "width": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "height": [
+        50,
+        50,
+        50,
+        50
+      ],
       "putableimg": {
         "source": "img/clear-blue-landmine.png"
       },
@@ -1886,6 +3771,17 @@
         "source": "img/redprint-landmine.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-landmine-0.png"
+        },
+        {
+          "source": "img/day-landmine-1.png"
+        },
+        {
+          "source": "img/day-landmine-2.png"
+        }
+      ],
       "ground_img": "img/day-ground-landmine.png"
     },
     {
@@ -1903,8 +3799,18 @@
         "level": 9
       },
       "stack": 10,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-dynamite.png"
       },
@@ -1912,6 +3818,14 @@
         "source": "img/redprint-dynamite.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-dynamite.png"
+        },
+        {
+          "source": "img/dynamite-yellow.png"
+        }
+      ],
       "ground_img": "img/day-ground-dynamite.png"
     },
     {
@@ -1929,8 +3843,18 @@
         "level": 16
       },
       "stack": 5,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-C4.png"
       },
@@ -1938,6 +3862,14 @@
         "source": "img/redprint-C4.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-C4.png"
+        },
+        {
+          "source": "img/C4-red.png"
+        }
+      ],
       "ground_img": "img/day-ground-C4.png"
     },
     {
@@ -1972,8 +3904,18 @@
         "level": 8
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-composter.png"
       },
@@ -1981,6 +3923,14 @@
         "source": "img/redprint-composter.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-composter-off.png"
+        },
+        {
+          "source": "img/day-composter.png"
+        }
+      ],
       "ground_img": "img/day-ground-composter.png"
     },
     {
@@ -2151,8 +4101,18 @@
         "level": -1
       },
       "stack": 40,
-      "width": [50, 50, 50, 50],
-      "height": [50, 50, 50, 50],
+      "width": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "height": [
+        50,
+        50,
+        50,
+        50
+      ],
       "putableimg": {
         "source": "img/clear-blue-wood-spike.png"
       },
@@ -2262,8 +4222,18 @@
         "level": 8
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-agitator.png"
       },
@@ -2271,6 +4241,20 @@
         "source": "img/redprint-agitator.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-agitator1-off.png"
+        },
+        {
+          "source": "img/day-agitator1-on.png"
+        },
+        {
+          "source": "img/day-agitator-1.png"
+        },
+        {
+          "source": "img/day-agitator-2.png"
+        }
+      ],
       "ground_img": "img/day-ground-agitator.png"
     },
     {
@@ -2424,8 +4408,18 @@
         "level": 8
       },
       "stack": 5,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-lapabot.png"
       },
@@ -2433,6 +4427,23 @@
         "source": "img/redprint-lapabot.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/lapabot0.png"
+        },
+        {
+          "source": "img/lapabot1.png"
+        },
+        {
+          "source": "img/lapabot2.png"
+        },
+        {
+          "source": "img/lapabot3.png"
+        },
+        {
+          "source": "img/lapabot4.png"
+        }
+      ],
       "ground_img": "img/day-ground-lapabot.png"
     },
     {
@@ -2501,8 +4512,18 @@
         "level": 99
       },
       "stack": 40,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-root.png"
       },
@@ -2510,6 +4531,23 @@
         "source": "img/redprint-root.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-root0-ghoul.png"
+        },
+        {
+          "source": "img/day-root1-ghoul.png"
+        },
+        {
+          "source": "img/day-root2-ghoul.png"
+        },
+        {
+          "source": "img/day-root3-ghoul.png"
+        },
+        {
+          "source": "img/day-root4-ghoul.png"
+        }
+      ],
       "ground_img": "img/day-ground-ghoul5.png"
     },
     {
@@ -2527,8 +4565,18 @@
         "level": 12
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-extractor.png"
       },
@@ -2536,6 +4584,17 @@
         "source": "img/redprint-extractor.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-extractor.png"
+        },
+        {
+          "source": "img/day-extractor-rotate.png"
+        },
+        {
+          "source": "img/day-extractor-off.png"
+        }
+      ],
       "ground_img": "img/day-ground-extractor.png"
     },
     {
@@ -2587,8 +4646,18 @@
         "level": -1
       },
       "stack": 100,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-plant-tree.png"
       },
@@ -2596,6 +4665,23 @@
         "source": "img/redprint-plant-tree.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant-tree0.png"
+        },
+        {
+          "source": "img/day-plant-tree1.png"
+        },
+        {
+          "source": "img/day-plant-tree2.png"
+        },
+        {
+          "source": "img/day-plant-tree3.png"
+        },
+        {
+          "source": "img/day-plant4-orange.png"
+        }
+      ],
       "ground_img": "img/day-ground-seed-tree.png"
     },
     {
@@ -2664,8 +4750,18 @@
         "level": 8
       },
       "stack": 5,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-hal-bot.png"
       },
@@ -2673,6 +4769,23 @@
         "source": "img/redprint-hal-bot.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/hal-bot0.png"
+        },
+        {
+          "source": "img/hal-bot1.png"
+        },
+        {
+          "source": "img/hal-bot2.png"
+        },
+        {
+          "source": "img/hal-bot3.png"
+        },
+        {
+          "source": "img/hal-bot4.png"
+        }
+      ],
       "ground_img": "img/day-ground-hal-bot.png"
     },
     {
@@ -2690,8 +4803,18 @@
         "level": 16
       },
       "stack": 5,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-tesla-bot.png"
       },
@@ -2699,6 +4822,23 @@
         "source": "img/redprint-tesla-bot.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/tesla-bot0.png"
+        },
+        {
+          "source": "img/tesla-bot1.png"
+        },
+        {
+          "source": "img/tesla-bot2.png"
+        },
+        {
+          "source": "img/tesla-bot3.png"
+        },
+        {
+          "source": "img/tesla-bot4.png"
+        }
+      ],
       "ground_img": "img/day-ground-tesla-bot.png"
     },
     {
@@ -2716,8 +4856,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire0.png"
       },
@@ -2742,8 +4892,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire1.png"
       },
@@ -2768,8 +4928,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire2.png"
       },
@@ -2794,8 +4964,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire3.png"
       },
@@ -2820,8 +5000,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-switch.png"
       },
@@ -2829,6 +5019,14 @@
         "source": "img/redprint-switch.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-switch-off.png"
+        },
+        {
+          "source": "img/day-switch-on.png"
+        }
+      ],
       "ground_img": "img/day-ground-switch.png"
     },
     {
@@ -2846,8 +5044,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-switch-or.png"
       },
@@ -2872,8 +5080,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-switch-and.png"
       },
@@ -2898,8 +5116,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-switch-reverse.png"
       },
@@ -2924,8 +5152,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-lamp.png"
       },
@@ -2950,8 +5188,18 @@
         "level": 7
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-cable-wall.png"
       },
@@ -2959,6 +5207,20 @@
         "source": "img/redprint-cable-wall.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-cable-wall.png"
+        },
+        {
+          "source": "img/day-cable-wall1.png"
+        },
+        {
+          "source": "img/day-cable-wall2.png"
+        },
+        {
+          "source": "img/day-cable-wall3.png"
+        }
+      ],
       "ground_img": "img/day-ground-cable-wall.png"
     },
     {
@@ -2976,8 +5238,18 @@
         "level": 7
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-automatic-door.png"
       },
@@ -2985,6 +5257,10 @@
         "source": "img/redprint-automatic-door.png"
       },
       "isDoor": 0,
+      "instation": [
+        {},
+        {}
+      ],
       "ground_img": "img/day-ground-automatic-door.png"
     },
     {
@@ -3002,8 +5278,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-platform-off.png"
       },
@@ -3028,8 +5314,18 @@
         "level": 99
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-stone-cave.png"
       },
@@ -3037,6 +5333,160 @@
         "source": "img/redprint-stone-cave.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-cave-broken0.png"
+        },
+        {
+          "source": "img/day-stone-cave-broken1.png"
+        },
+        {
+          "source": "img/day-stone-cave-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-cave0.png"
+        },
+        {
+          "source": "img/day-stone-cave1.png"
+        },
+        {
+          "source": "img/day-stone-cave2.png"
+        },
+        {
+          "source": "img/day-stone-cave3.png"
+        },
+        {
+          "source": "img/day-stone-cave4.png"
+        },
+        {
+          "source": "img/day-stone-cave5.png"
+        },
+        {
+          "source": "img/day-stone-cave6.png"
+        },
+        {
+          "source": "img/day-stone-cave7.png"
+        },
+        {
+          "source": "img/day-stone-cave8.png"
+        },
+        {
+          "source": "img/day-stone-cave9.png"
+        },
+        {
+          "source": "img/day-stone-cave10.png"
+        },
+        {
+          "source": "img/day-stone-cave11.png"
+        },
+        {
+          "source": "img/day-stone-cave12.png"
+        },
+        {
+          "source": "img/day-stone-cave13.png"
+        },
+        {
+          "source": "img/day-stone-cave14.png"
+        },
+        {
+          "source": "img/day-stone-cave15.png"
+        },
+        {
+          "source": "img/day-stone-cave16.png"
+        },
+        {
+          "source": "img/day-stone-cave17.png"
+        },
+        {
+          "source": "img/day-stone-cave18.png"
+        },
+        {
+          "source": "img/day-stone-cave19.png"
+        },
+        {
+          "source": "img/day-stone-cave20.png"
+        },
+        {
+          "source": "img/day-stone-cave21.png"
+        },
+        {
+          "source": "img/day-stone-cave22.png"
+        },
+        {
+          "source": "img/day-stone-cave23.png"
+        },
+        {
+          "source": "img/day-stone-cave24.png"
+        },
+        {
+          "source": "img/day-stone-cave25.png"
+        },
+        {
+          "source": "img/day-stone-cave26.png"
+        },
+        {
+          "source": "img/day-stone-cave27.png"
+        },
+        {
+          "source": "img/day-stone-cave28.png"
+        },
+        {
+          "source": "img/day-stone-cave29.png"
+        },
+        {
+          "source": "img/day-stone-cave30.png"
+        },
+        {
+          "source": "img/day-stone-cave31.png"
+        },
+        {
+          "source": "img/day-stone-cave32.png"
+        },
+        {
+          "source": "img/day-stone-cave33.png"
+        },
+        {
+          "source": "img/day-stone-cave34.png"
+        },
+        {
+          "source": "img/day-stone-cave35.png"
+        },
+        {
+          "source": "img/day-stone-cave36.png"
+        },
+        {
+          "source": "img/day-stone-cave37.png"
+        },
+        {
+          "source": "img/day-stone-cave38.png"
+        },
+        {
+          "source": "img/day-stone-cave39.png"
+        },
+        {
+          "source": "img/day-stone-cave40.png"
+        },
+        {
+          "source": "img/day-stone-cave41.png"
+        },
+        {
+          "source": "img/day-stone-cave42.png"
+        },
+        {
+          "source": "img/day-stone-cave43.png"
+        },
+        {
+          "source": "img/day-stone-cave44.png"
+        },
+        {
+          "source": "img/day-stone-cave45.png"
+        },
+        {
+          "source": "img/day-stone-cave46.png"
+        }
+      ],
       "ground_img": "img/day-ground-stone-cave.png"
     },
     {
@@ -3054,8 +5504,18 @@
         "level": 99
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-bunker-wall.png"
       },
@@ -3063,6 +5523,160 @@
         "source": "img/redprint-bunker-wall.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-bunker-wall-broken0.png"
+        },
+        {
+          "source": "img/day-bunker-wall-broken1.png"
+        },
+        {
+          "source": "img/day-bunker-wall-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-bunker-wall0.png"
+        },
+        {
+          "source": "img/day-bunker-wall1.png"
+        },
+        {
+          "source": "img/day-bunker-wall2.png"
+        },
+        {
+          "source": "img/day-bunker-wall3.png"
+        },
+        {
+          "source": "img/day-bunker-wall4.png"
+        },
+        {
+          "source": "img/day-bunker-wall5.png"
+        },
+        {
+          "source": "img/day-bunker-wall6.png"
+        },
+        {
+          "source": "img/day-bunker-wall7.png"
+        },
+        {
+          "source": "img/day-bunker-wall8.png"
+        },
+        {
+          "source": "img/day-bunker-wall9.png"
+        },
+        {
+          "source": "img/day-bunker-wall10.png"
+        },
+        {
+          "source": "img/day-bunker-wall11.png"
+        },
+        {
+          "source": "img/day-bunker-wall12.png"
+        },
+        {
+          "source": "img/day-bunker-wall13.png"
+        },
+        {
+          "source": "img/day-bunker-wall14.png"
+        },
+        {
+          "source": "img/day-bunker-wall15.png"
+        },
+        {
+          "source": "img/day-bunker-wall16.png"
+        },
+        {
+          "source": "img/day-bunker-wall17.png"
+        },
+        {
+          "source": "img/day-bunker-wall18.png"
+        },
+        {
+          "source": "img/day-bunker-wall19.png"
+        },
+        {
+          "source": "img/day-bunker-wall20.png"
+        },
+        {
+          "source": "img/day-bunker-wall21.png"
+        },
+        {
+          "source": "img/day-bunker-wall22.png"
+        },
+        {
+          "source": "img/day-bunker-wall23.png"
+        },
+        {
+          "source": "img/day-bunker-wall24.png"
+        },
+        {
+          "source": "img/day-bunker-wall25.png"
+        },
+        {
+          "source": "img/day-bunker-wall26.png"
+        },
+        {
+          "source": "img/day-bunker-wall27.png"
+        },
+        {
+          "source": "img/day-bunker-wall28.png"
+        },
+        {
+          "source": "img/day-bunker-wall29.png"
+        },
+        {
+          "source": "img/day-bunker-wall30.png"
+        },
+        {
+          "source": "img/day-bunker-wall31.png"
+        },
+        {
+          "source": "img/day-bunker-wall32.png"
+        },
+        {
+          "source": "img/day-bunker-wall33.png"
+        },
+        {
+          "source": "img/day-bunker-wall34.png"
+        },
+        {
+          "source": "img/day-bunker-wall35.png"
+        },
+        {
+          "source": "img/day-bunker-wall36.png"
+        },
+        {
+          "source": "img/day-bunker-wall37.png"
+        },
+        {
+          "source": "img/day-bunker-wall38.png"
+        },
+        {
+          "source": "img/day-bunker-wall39.png"
+        },
+        {
+          "source": "img/day-bunker-wall40.png"
+        },
+        {
+          "source": "img/day-bunker-wall41.png"
+        },
+        {
+          "source": "img/day-bunker-wall42.png"
+        },
+        {
+          "source": "img/day-bunker-wall43.png"
+        },
+        {
+          "source": "img/day-bunker-wall44.png"
+        },
+        {
+          "source": "img/day-bunker-wall45.png"
+        },
+        {
+          "source": "img/day-bunker-wall46.png"
+        }
+      ],
       "ground_img": "img/day-ground-bunker-wall.png"
     },
     {
@@ -3080,8 +5694,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-floor.png"
       },
@@ -3089,6 +5713,160 @@
         "source": "img/day-redprint-stone-floor.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-mustard-floor-broken0.png"
+        },
+        {
+          "source": "img/day-mustard-floor-broken1.png"
+        },
+        {
+          "source": "img/day-mustard-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-mustard-floor-0.png"
+        },
+        {
+          "source": "img/day-mustard-floor-1.png"
+        },
+        {
+          "source": "img/day-mustard-floor-2.png"
+        },
+        {
+          "source": "img/day-mustard-floor-3.png"
+        },
+        {
+          "source": "img/day-mustard-floor-4.png"
+        },
+        {
+          "source": "img/day-mustard-floor-5.png"
+        },
+        {
+          "source": "img/day-mustard-floor-6.png"
+        },
+        {
+          "source": "img/day-mustard-floor-7.png"
+        },
+        {
+          "source": "img/day-mustard-floor-8.png"
+        },
+        {
+          "source": "img/day-mustard-floor-9.png"
+        },
+        {
+          "source": "img/day-mustard-floor-10.png"
+        },
+        {
+          "source": "img/day-mustard-floor-11.png"
+        },
+        {
+          "source": "img/day-mustard-floor-12.png"
+        },
+        {
+          "source": "img/day-mustard-floor-13.png"
+        },
+        {
+          "source": "img/day-mustard-floor-14.png"
+        },
+        {
+          "source": "img/day-mustard-floor-15.png"
+        },
+        {
+          "source": "img/day-mustard-floor-16.png"
+        },
+        {
+          "source": "img/day-mustard-floor-17.png"
+        },
+        {
+          "source": "img/day-mustard-floor-18.png"
+        },
+        {
+          "source": "img/day-mustard-floor-19.png"
+        },
+        {
+          "source": "img/day-mustard-floor-20.png"
+        },
+        {
+          "source": "img/day-mustard-floor-21.png"
+        },
+        {
+          "source": "img/day-mustard-floor-22.png"
+        },
+        {
+          "source": "img/day-mustard-floor-23.png"
+        },
+        {
+          "source": "img/day-mustard-floor-24.png"
+        },
+        {
+          "source": "img/day-mustard-floor-25.png"
+        },
+        {
+          "source": "img/day-mustard-floor-26.png"
+        },
+        {
+          "source": "img/day-mustard-floor-27.png"
+        },
+        {
+          "source": "img/day-mustard-floor-28.png"
+        },
+        {
+          "source": "img/day-mustard-floor-29.png"
+        },
+        {
+          "source": "img/day-mustard-floor-30.png"
+        },
+        {
+          "source": "img/day-mustard-floor-31.png"
+        },
+        {
+          "source": "img/day-mustard-floor-32.png"
+        },
+        {
+          "source": "img/day-mustard-floor-33.png"
+        },
+        {
+          "source": "img/day-mustard-floor-34.png"
+        },
+        {
+          "source": "img/day-mustard-floor-35.png"
+        },
+        {
+          "source": "img/day-mustard-floor-36.png"
+        },
+        {
+          "source": "img/day-mustard-floor-37.png"
+        },
+        {
+          "source": "img/day-mustard-floor-38.png"
+        },
+        {
+          "source": "img/day-mustard-floor-39.png"
+        },
+        {
+          "source": "img/day-mustard-floor-40.png"
+        },
+        {
+          "source": "img/day-mustard-floor-41.png"
+        },
+        {
+          "source": "img/day-mustard-floor-42.png"
+        },
+        {
+          "source": "img/day-mustard-floor-43.png"
+        },
+        {
+          "source": "img/day-mustard-floor-44.png"
+        },
+        {
+          "source": "img/day-mustard-floor-45.png"
+        },
+        {
+          "source": "img/day-mustard-floor-46.png"
+        }
+      ],
       "ground_img": "img/day-ground-mustard-floor.png"
     },
     {
@@ -3106,8 +5884,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-floor.png"
       },
@@ -3115,6 +5903,160 @@
         "source": "img/day-redprint-stone-floor.png"
       },
       "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-red-floor-broken0.png"
+        },
+        {
+          "source": "img/day-red-floor-broken1.png"
+        },
+        {
+          "source": "img/day-red-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-red-floor-0.png"
+        },
+        {
+          "source": "img/day-red-floor-1.png"
+        },
+        {
+          "source": "img/day-red-floor-2.png"
+        },
+        {
+          "source": "img/day-red-floor-3.png"
+        },
+        {
+          "source": "img/day-red-floor-4.png"
+        },
+        {
+          "source": "img/day-red-floor-5.png"
+        },
+        {
+          "source": "img/day-red-floor-6.png"
+        },
+        {
+          "source": "img/day-red-floor-7.png"
+        },
+        {
+          "source": "img/day-red-floor-8.png"
+        },
+        {
+          "source": "img/day-red-floor-9.png"
+        },
+        {
+          "source": "img/day-red-floor-10.png"
+        },
+        {
+          "source": "img/day-red-floor-11.png"
+        },
+        {
+          "source": "img/day-red-floor-12.png"
+        },
+        {
+          "source": "img/day-red-floor-13.png"
+        },
+        {
+          "source": "img/day-red-floor-14.png"
+        },
+        {
+          "source": "img/day-red-floor-15.png"
+        },
+        {
+          "source": "img/day-red-floor-16.png"
+        },
+        {
+          "source": "img/day-red-floor-17.png"
+        },
+        {
+          "source": "img/day-red-floor-18.png"
+        },
+        {
+          "source": "img/day-red-floor-19.png"
+        },
+        {
+          "source": "img/day-red-floor-20.png"
+        },
+        {
+          "source": "img/day-red-floor-21.png"
+        },
+        {
+          "source": "img/day-red-floor-22.png"
+        },
+        {
+          "source": "img/day-red-floor-23.png"
+        },
+        {
+          "source": "img/day-red-floor-24.png"
+        },
+        {
+          "source": "img/day-red-floor-25.png"
+        },
+        {
+          "source": "img/day-red-floor-26.png"
+        },
+        {
+          "source": "img/day-red-floor-27.png"
+        },
+        {
+          "source": "img/day-red-floor-28.png"
+        },
+        {
+          "source": "img/day-red-floor-29.png"
+        },
+        {
+          "source": "img/day-red-floor-30.png"
+        },
+        {
+          "source": "img/day-red-floor-31.png"
+        },
+        {
+          "source": "img/day-red-floor-32.png"
+        },
+        {
+          "source": "img/day-red-floor-33.png"
+        },
+        {
+          "source": "img/day-red-floor-34.png"
+        },
+        {
+          "source": "img/day-red-floor-35.png"
+        },
+        {
+          "source": "img/day-red-floor-36.png"
+        },
+        {
+          "source": "img/day-red-floor-37.png"
+        },
+        {
+          "source": "img/day-red-floor-38.png"
+        },
+        {
+          "source": "img/day-red-floor-39.png"
+        },
+        {
+          "source": "img/day-red-floor-40.png"
+        },
+        {
+          "source": "img/day-red-floor-41.png"
+        },
+        {
+          "source": "img/day-red-floor-42.png"
+        },
+        {
+          "source": "img/day-red-floor-43.png"
+        },
+        {
+          "source": "img/day-red-floor-44.png"
+        },
+        {
+          "source": "img/day-red-floor-45.png"
+        },
+        {
+          "source": "img/day-red-floor-46.png"
+        }
+      ],
       "ground_img": "img/day-ground-red-floor.png"
     },
     {
@@ -3132,8 +6074,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-welding-machine.png"
       },
@@ -3158,8 +6110,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire4.png"
       },
@@ -3184,8 +6146,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-timer.png"
       },
@@ -3193,6 +6165,20 @@
         "source": "img/redprint-timer.png"
       },
       "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-timer-0.png"
+        },
+        {
+          "source": "img/day-timer-1.png"
+        },
+        {
+          "source": "img/day-timer-2.png"
+        },
+        {
+          "source": "img/day-timer-3.png"
+        }
+      ],
       "ground_img": "img/day-ground-timer.png"
     },
     {
@@ -3210,8 +6196,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-xor.png"
       },
