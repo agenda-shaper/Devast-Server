@@ -653,7 +653,13 @@
           "source": "img/day-wood-wall46.png"
         }
       ],
-      "ground_img": "img/day-ground-wood-wall.png"
+      "ground_img": "img/day-ground-wood-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed"
+      }
     },
     {
       "id": 28,
@@ -833,7 +839,13 @@
           "source": "img/day-stone-wall46.png"
         }
       ],
-      "ground_img": "img/day-ground-stone-wall.png"
+      "ground_img": "img/day-ground-stone-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed"
+      }
     },
     {
       "id": 29,
@@ -1013,7 +1025,13 @@
           "source": "img/day-steel-wall46.png"
         }
       ],
-      "ground_img": "img/day-ground-steel-wall.png"
+      "ground_img": "img/day-ground-steel-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed"
+      }
     },
     {
       "id": 30,
