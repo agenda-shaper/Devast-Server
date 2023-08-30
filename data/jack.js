@@ -1139,6 +1139,7 @@ const items = [
       outward: "cube_block_outward",
       side: "cube_block_side",
       enclosed: "cube_block_enclosed",
+      building: "cube_block_building",
     },
     mnw: 21,
     fuelleft: -1,
@@ -1530,6 +1531,7 @@ const items = [
       outward: "cube_block_outward",
       side: "cube_block_side",
       enclosed: "cube_block_enclosed",
+      building: "cube_block_building",
     },
     mnw: 21,
     fuelleft: -1,
@@ -1921,6 +1923,7 @@ const items = [
       outward: "cube_block_outward",
       side: "cube_block_side",
       enclosed: "cube_block_enclosed",
+      building: "cube_block_building",
     },
     mnw: 21,
     fuelleft: -1,
@@ -20656,7 +20659,7 @@ const ClearedItems = items.map((item) => {
   let {
     id,
     img: { source = [] } = {},
-    detail: { name, description, level },
+    detail: { name, description, level, pointreq },
     stack,
     width,
     height,
@@ -20666,6 +20669,7 @@ const ClearedItems = items.map((item) => {
     broken, // Added broken field
     instation, // Added instation field
     blockMeshes,
+    health,
   } = item;
 
   //console.log(typeof broken);
@@ -20676,11 +20680,11 @@ const ClearedItems = items.map((item) => {
     ground_img = source[0].replace("inv-", "day-ground-");
     ground_img = ground_img.replace("-out", "");
   }
-
+  let skillCost = pointreq;
   return {
     id,
     img: { source: source.length > 0 ? source : undefined },
-    detail: { name, description, level },
+    detail: { name, description, level, skillCost },
     stack,
     width,
     height,
@@ -20698,6 +20702,7 @@ const ClearedItems = items.map((item) => {
 
     ground_img,
     blockMeshes,
+    health,
   };
 });
 

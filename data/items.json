@@ -236,8 +236,18 @@
         "level": -1
       },
       "stack": 40,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-plant2-orange.png"
       },
@@ -490,8 +500,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-wall.png"
       },
@@ -658,7 +678,8 @@
         "inward": "cube_block_inward",
         "outward": "cube_block_outward",
         "side": "cube_block_side",
-        "enclosed": "cube_block_enclosed"
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
       }
     },
     {
@@ -676,8 +697,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-wall.png"
       },
@@ -844,7 +875,8 @@
         "inward": "cube_block_inward",
         "outward": "cube_block_outward",
         "side": "cube_block_side",
-        "enclosed": "cube_block_enclosed"
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
       }
     },
     {
@@ -862,8 +894,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-wall.png"
       },
@@ -1030,7 +1072,8 @@
         "inward": "cube_block_inward",
         "outward": "cube_block_outward",
         "side": "cube_block_side",
-        "enclosed": "cube_block_enclosed"
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
       }
     },
     {
@@ -1048,8 +1091,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-door.png"
       },
@@ -1085,8 +1138,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-door.png"
       },
@@ -1122,8 +1185,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-door.png"
       },
@@ -1159,8 +1232,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-campfire.png"
       },
@@ -1423,8 +1506,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-campfire-bbq.png"
       },
@@ -1449,8 +1542,18 @@
         "level": 10
       },
       "stack": 255,
-      "width": [100, 260, 100, 260],
-      "height": [260, 100, 260, 100],
+      "width": [
+        100,
+        260,
+        100,
+        260
+      ],
+      "height": [
+        260,
+        100,
+        260,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-smelter.png"
       },
@@ -1489,8 +1592,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-door1.png"
       },
@@ -1526,8 +1639,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-door1.png"
       },
@@ -1563,8 +1686,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-door1.png"
       },
@@ -1634,8 +1767,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 280, 100, 280],
-      "height": [280, 100, 280, 100],
+      "width": [
+        100,
+        280,
+        100,
+        280
+      ],
+      "height": [
+        280,
+        100,
+        280,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-workbench2.png"
       },
@@ -1677,8 +1820,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-weaving-machine.png"
       },
@@ -1737,8 +1890,18 @@
         "level": 8
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-chest.png"
       },
@@ -1763,8 +1926,18 @@
         "level": 9
       },
       "stack": 255,
-      "width": [50, 100, 50, 100],
-      "height": [100, 50, 100, 50],
+      "width": [
+        50,
+        100,
+        50,
+        100
+      ],
+      "height": [
+        100,
+        50,
+        100,
+        50
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-fridge.png"
       },
@@ -1789,8 +1962,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-floor.png"
       },
@@ -1986,8 +2169,18 @@
         "level": 9
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-sleeping-bag.png"
       },
@@ -2046,8 +2239,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-woodlight-floor.png"
       },
@@ -2226,8 +2429,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-wood-smallwall.png"
       },
@@ -2385,8 +2598,18 @@
         "level": 3
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-smallwalls.png"
       },
@@ -2544,8 +2767,18 @@
         "level": 6
       },
       "stack": 255,
-      "width": [100, 35, 100, 35],
-      "height": [35, 100, 35, 100],
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-smallwalls.png"
       },
@@ -2778,8 +3011,18 @@
         "level": -1
       },
       "stack": 40,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-tomato.png"
       },
@@ -2940,8 +3183,18 @@
         "level": 4
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-floor.png"
       },
@@ -3120,8 +3373,18 @@
         "level": 4
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-tiling-floor.png"
       },
@@ -3426,8 +3689,18 @@
         "level": 10
       },
       "stack": 255,
-      "width": [100, 260, 100, 260],
-      "height": [260, 100, 260, 100],
+      "width": [
+        100,
+        260,
+        100,
+        260
+      ],
+      "height": [
+        260,
+        100,
+        260,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-workbench3.png"
       },
@@ -3500,8 +3773,18 @@
         "level": 9
       },
       "stack": 20,
-      "width": [50, 50, 50, 50],
-      "height": [50, 50, 50, 50],
+      "width": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "height": [
+        50,
+        50,
+        50,
+        50
+      ],
       "putableimg": {
         "source": "img/clear-blue-landmine.png"
       },
@@ -3537,8 +3820,18 @@
         "level": 9
       },
       "stack": 10,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-dynamite.png"
       },
@@ -3571,8 +3864,18 @@
         "level": 16
       },
       "stack": 5,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-C4.png"
       },
@@ -3622,8 +3925,18 @@
         "level": 8
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-composter.png"
       },
@@ -3809,8 +4122,18 @@
         "level": -1
       },
       "stack": 40,
-      "width": [50, 50, 50, 50],
-      "height": [50, 50, 50, 50],
+      "width": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "height": [
+        50,
+        50,
+        50,
+        50
+      ],
       "putableimg": {
         "source": "img/clear-blue-wood-spike.png"
       },
@@ -3920,8 +4243,18 @@
         "level": 8
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-agitator.png"
       },
@@ -4096,8 +4429,18 @@
         "level": 8
       },
       "stack": 5,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-lapabot.png"
       },
@@ -4190,8 +4533,18 @@
         "level": 99
       },
       "stack": 40,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-root.png"
       },
@@ -4233,8 +4586,18 @@
         "level": 12
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-extractor.png"
       },
@@ -4304,8 +4667,18 @@
         "level": -1
       },
       "stack": 100,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-plant-tree.png"
       },
@@ -4398,8 +4771,18 @@
         "level": 8
       },
       "stack": 5,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-hal-bot.png"
       },
@@ -4441,8 +4824,18 @@
         "level": 16
       },
       "stack": 5,
-      "width": [30, 30, 30, 30],
-      "height": [30, 30, 30, 30],
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
       "putableimg": {
         "source": "img/clear-blue-tesla-bot.png"
       },
@@ -4484,8 +4877,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire0.png"
       },
@@ -4510,8 +4913,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire1.png"
       },
@@ -4536,8 +4949,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire2.png"
       },
@@ -4562,8 +4985,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire3.png"
       },
@@ -4588,8 +5021,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-switch.png"
       },
@@ -4622,8 +5065,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-switch-or.png"
       },
@@ -4648,8 +5101,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-switch-and.png"
       },
@@ -4674,8 +5137,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-switch-reverse.png"
       },
@@ -4700,8 +5173,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-lamp.png"
       },
@@ -4726,8 +5209,18 @@
         "level": 7
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-cable-wall.png"
       },
@@ -4766,8 +5259,18 @@
         "level": 7
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-automatic-door.png"
       },
@@ -4775,7 +5278,10 @@
         "source": "img/redprint-automatic-door.png"
       },
       "isDoor": 0,
-      "instation": [{}, {}],
+      "instation": [
+        {},
+        {}
+      ],
       "ground_img": "img/day-ground-automatic-door.png"
     },
     {
@@ -4793,8 +5299,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-platform-off.png"
       },
@@ -4819,8 +5335,18 @@
         "level": 99
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-stone-cave.png"
       },
@@ -4999,8 +5525,18 @@
         "level": 99
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-bunker-wall.png"
       },
@@ -5179,8 +5715,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-floor.png"
       },
@@ -5359,8 +5905,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/day-clear-blue-stone-floor.png"
       },
@@ -5539,8 +6095,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-welding-machine.png"
       },
@@ -5565,8 +6131,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-wire4.png"
       },
@@ -5591,8 +6167,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-timer.png"
       },
@@ -5631,8 +6217,18 @@
         "level": -1
       },
       "stack": 255,
-      "width": [100, 100, 100, 100],
-      "height": [100, 100, 100, 100],
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
       "putableimg": {
         "source": "img/clear-blue-xor.png"
       },
