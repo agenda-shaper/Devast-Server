@@ -1134,6 +1134,12 @@ const items = [
       WnNmW: -1,
       pointreq: 1,
     },
+    blockMeshes: {
+      inward: "cube_block_inward",
+      outward: "cube_block_outward",
+      side: "cube_block_side",
+      enclosed: "cube_block_enclosed",
+    },
     mnw: 21,
     fuelleft: -1,
     WvV: 1,
@@ -1519,6 +1525,12 @@ const items = [
       WnNmW: -1,
       pointreq: 1,
     },
+    blockMeshes: {
+      inward: "cube_block_inward",
+      outward: "cube_block_outward",
+      side: "cube_block_side",
+      enclosed: "cube_block_enclosed",
+    },
     mnw: 21,
     fuelleft: -1,
     WvV: 1,
@@ -1903,6 +1915,12 @@ const items = [
       level: 6,
       WnNmW: 28,
       pointreq: 1,
+    },
+    blockMeshes: {
+      inward: "cube_block_inward",
+      outward: "cube_block_outward",
+      side: "cube_block_side",
+      enclosed: "cube_block_enclosed",
     },
     mnw: 21,
     fuelleft: -1,
@@ -20647,6 +20665,7 @@ const ClearedItems = items.map((item) => {
     isDoor,
     broken, // Added broken field
     instation, // Added instation field
+    blockMeshes,
   } = item;
 
   //console.log(typeof broken);
@@ -20678,6 +20697,7 @@ const ClearedItems = items.map((item) => {
       : undefined,
 
     ground_img,
+    blockMeshes,
   };
 });
 
